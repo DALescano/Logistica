@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="884a5ee0ccce4612a81be82cda9508cb" Name="Diagram1" ZoomLevel="29">
+        <EntityTypeShape EntityType="ModeloPEC.Agencias" Width="1.5" PointX="3.75" PointY="1.25" />
+        <EntityTypeShape EntityType="ModeloPEC.Areas" Width="1.5" PointX="0.75" PointY="0.75" />
+        <EntityTypeShape EntityType="ModeloPEC.Categoria" Width="1.5" PointX="0.75" PointY="11.75" />
+        <EntityTypeShape EntityType="ModeloPEC.Constante" Width="1.5" PointX="0.75" PointY="3.75" />
+        <EntityTypeShape EntityType="ModeloPEC.OpeTpo" Width="1.5" PointX="0.75" PointY="7.625" />
+        <EntityTypeShape EntityType="ModeloPEC.Menu" Width="1.5" PointX="7.375" PointY="10.125" />
+        <EntityTypeShape EntityType="ModeloPEC.MenuOpciones" Width="1.5" PointX="9.625" PointY="1.25" />
+        <EntityTypeShape EntityType="ModeloPEC.MenuOpcionRol" Width="1.5" PointX="11.875" PointY="1" />
+        <EntityTypeShape EntityType="ModeloPEC.Opciones" Width="1.5" PointX="7.375" PointY="1.125" />
+        <EntityTypeShape EntityType="ModeloPEC.Roles" Width="1.5" PointX="9.625" PointY="5.25" />
+        <AssociationConnector Association="ModeloPEC.FK_MenuOpciones_Menu" />
+        <AssociationConnector Association="ModeloPEC.FK_MenuOpciones_Opciones" />
+        <AssociationConnector Association="ModeloPEC.FK_MenuOpcionRol_MenuOpciones" />
+        <AssociationConnector Association="ModeloPEC.FK_MenuOpcionRol_Roles" />
+        <EntityTypeShape EntityType="ModeloPEC.RHcargos" Width="1.5" PointX="9.625" PointY="8.5" />
+        <EntityTypeShape EntityType="ModeloPEC.rrhh" Width="1.5" PointX="9.625" PointY="12" />
+        <EntityTypeShape EntityType="ModeloPEC.RHCargosPersona" Width="1.5" PointX="11.875" PointY="9.25" />
+        <EntityTypeShape EntityType="ModeloPEC.RolCargo" Width="1.5" PointX="11.875" PointY="5.25" />
+        <AssociationConnector Association="ModeloPEC.FK_RHCargosPersona_RHcargos" />
+        <AssociationConnector Association="ModeloPEC.FK_RolCargo_RHcargos" />
+        <AssociationConnector Association="ModeloPEC.FK_RolCargo_Roles" />
+        <AssociationConnector Association="ModeloPEC.FK_RHCargosPersona_rrhh" />
+        <EntityTypeShape EntityType="ModeloPEC.Producto" Width="1.5" PointX="6" PointY="17" />
+        <EntityTypeShape EntityType="ModeloPEC.ProductoDetalle" Width="1.5" PointX="8.25" PointY="15.75" />
+        <EntityTypeShape EntityType="ModeloPEC.SubAlamacen" Width="1.5" PointX="6" PointY="14" />
+        <AssociationConnector Association="ModeloPEC.FK_SubAlamacen_Agencias" />
+        <AssociationConnector Association="ModeloPEC.FK_ProductoDetalle_Producto" />
+        <AssociationConnector Association="ModeloPEC.FK_ProductoDetalle_SubAlamacen" />
+        <EntityTypeShape EntityType="ModeloPEC.LogDevolucion" Width="1.5" PointX="5.25" PointY="21" />
+        <EntityTypeShape EntityType="ModeloPEC.MovBS" Width="1.5" PointX="5.25" PointY="25.5" />
+        <EntityTypeShape EntityType="ModeloPEC.Mov" Width="1.5" PointX="3" PointY="4.5" />
+        <EntityTypeShape EntityType="ModeloPEC.MovCta" Width="1.5" PointX="5.25" PointY="5.5" />
+        <AssociationConnector Association="ModeloPEC.FK_LogDevolucion_Mov" />
+        <AssociationConnector Association="ModeloPEC.FK_Mov_OpeTpo" />
+        <AssociationConnector Association="ModeloPEC.FK_MovBS_Mov" />
+        <AssociationConnector Association="ModeloPEC.FK_MovCta_Mov" />
+        <AssociationConnector Association="ModeloPEC.FK_ProductoDetalle_Mov" />
+        <EntityTypeShape EntityType="ModeloPEC.DetalleProceso" Width="1.5" PointX="14.625" PointY="13.875" />
+        <EntityTypeShape EntityType="ModeloPEC.Proceso" Width="1.5" PointX="12.375" PointY="13.125" />
+        <AssociationConnector Association="ModeloPEC.FK_DetalleProceso_Proceso" />
+        <EntityTypeShape EntityType="ModeloPEC.Persona" Width="1.5" PointX="14.375" PointY="1.5" />
+        <EntityTypeShape EntityType="ModeloPEC.PersonaDireccion" Width="1.5" PointX="16.625" PointY="1" />
+        <AssociationConnector Association="ModeloPEC.FK_PersonaDireccion_Persona" />
+        <EntityTypeShape EntityType="ModeloPEC.BienesServicios" Width="1.5" PointX="14.375" PointY="5.125" />
+        <EntityTypeShape EntityType="ModeloPEC.BSSaldos" Width="1.5" PointX="16.625" PointY="6.75" />
+        <AssociationConnector Association="ModeloPEC.FK_BSSaldos_BienesServicios" />
+        <EntityTypeShape EntityType="ModeloPEC.BSSerie" Width="1.5" PointX="3" PointY="15.125" />
+        <EntityTypeShape EntityType="ModeloPEC.CodigoBarra" Width="1.5" PointX="3.75" PointY="9.75" />
+        <EntityTypeShape EntityType="ModeloPEC.ConstSistema" Width="1.5" PointX="16.75" PointY="10.75" />
+        <EntityTypeShape EntityType="ModeloPEC.CtaBS" Width="1.5" PointX="17.75" PointY="13.75" />
+        <EntityTypeShape EntityType="ModeloPEC.MovBSSerie" Width="1.5" PointX="0.75" PointY="15" />
+        <AssociationConnector Association="ModeloPEC.FK_BSSerie_MovBSSerie" />
+        </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

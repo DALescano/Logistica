@@ -1,0 +1,9 @@
+﻿<configuration>
+  <appSettings>    
+    <add key="SSRS_SERVER" value="http://localhost/ReportServer"/>
+    <add key="SSRS_USER" value=""/>
+    <add key="SSRS_PASSWORD" value=""/>
+    <add key="SSRS_DOMAIN" value=""/>
+    <add key="SSRS_PATH_REPORTS" value="/Reports"/>
+  </appSettings>
+</configuration>

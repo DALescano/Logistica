@@ -1,0 +1,5 @@
+C:\Disco D\PEC\Med.PEC.Dominio.Entidades\bin\Debug\Med.PEC.Dominio.Entidades.dll
+C:\Disco D\PEC\Med.PEC.Dominio.Entidades\bin\Debug\Med.PEC.Dominio.Entidades.pdb
+C:\Disco D\PEC\Med.PEC.Dominio.Entidades\obj\Debug\Med.PEC.Dominio.Entidades.csproj.CoreCompileInputs.cache
+C:\Disco D\PEC\Med.PEC.Dominio.Entidades\obj\Debug\Med.PEC.Dominio.Entidades.dll
+C:\Disco D\PEC\Med.PEC.Dominio.Entidades\obj\Debug\Med.PEC.Dominio.Entidades.pdb

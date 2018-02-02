@@ -1,0 +1,2 @@
+C:\Disco D\PEC\Med.PEC.Dominio.RepositorioInterfaces\obj\Debug\Med.PEC.Dominio.RepositorioInterfaces.csprojResolveAssemblyReference.cache
+C:\Disco D\PEC\Med.PEC.Dominio.RepositorioInterfaces\obj\Debug\Med.PEC.Dominio.RepositorioInterfaces.csproj.CoreCompileInputs.cache

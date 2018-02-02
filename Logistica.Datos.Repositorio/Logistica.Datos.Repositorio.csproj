@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1F281949-E69D-4DE3-997B-5B84FA04F032}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Logistica.Datos.Repositorio</RootNamespace>
+    <AssemblyName>Logistica.Datos.Repositorio</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Med.Comun.Datos.ICore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=33972f12bff2653f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Med.Comun.Datos.ICore.1.0.20\lib\net45\Med.Comun.Datos.ICore.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AgenciasRepository.cs">
+      <DependentUpon>RepositoryPEC.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AreasRepository.cs">
+      <DependentUpon>RepositoryPEC.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BienesServiciosRepository.cs">
+      <DependentUpon>RepositoryPEC.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BSSaldosRepository.cs">
+      <DependentUpon>RepositoryPEC.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BSSerieRepository.cs">
+      <DependentUpon>RepositoryPEC.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CategoriaRepository.cs">
+      <DependentUpon>RepositoryPEC.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CodigoBarraRepository.cs">
+      <DependentUpon>RepositoryPEC.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ConstanteRepository.cs">
+      <DependentUpon>RepositoryPEC.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ConstSistemaRepository.cs">
+      <DependentUpon>RepositoryPEC.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CtaBSRepository.cs">
+      <DependentUpon>RepositoryPEC.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DetalleProcesoRepository.cs">
+      <DependentUpon>RepositoryPEC.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LogDevolucionRepository.cs">
+      <DependentUpon>RepositoryPEC.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MenuOpcionesRepository.cs">
+      <DependentUpon>RepositoryPEC.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MenuOpcionRolRepository.cs">
+      <DependentUpon>RepositoryPEC.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MenuRepository.cs">
+      <DependentUpon>RepositoryPEC.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MovBSRepository.cs">
+      <DependentUpon>RepositoryPEC.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MovBSSerieRepository.cs">
+      <DependentUpon>RepositoryPEC.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MovCtaRepository.cs">
+      <DependentUpon>RepositoryPEC.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MovRepository.cs">
+      <DependentUpon>RepositoryPEC.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OpcionesRepository.cs">
+      <DependentUpon>RepositoryPEC.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OpeTpoRepository.cs">
+      <DependentUpon>RepositoryPEC.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PersonaDireccionRepository.cs">
+      <DependentUpon>RepositoryPEC.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PersonaRepository.cs">
+      <DependentUpon>RepositoryPEC.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProcesoRepository.cs">
+      <DependentUpon>RepositoryPEC.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProductoDetalleRepository.cs">
+      <DependentUpon>RepositoryPEC.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProductoRepository.cs">
+      <DependentUpon>RepositoryPEC.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RepositoryPEC.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RepositoryPEC.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RHCargosPersonaRepository.cs">
+      <DependentUpon>RepositoryPEC.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RHcargosRepository.cs">
+      <DependentUpon>RepositoryPEC.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RolCargoRepository.cs">
+      <DependentUpon>RepositoryPEC.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RolesRepository.cs">
+      <DependentUpon>RepositoryPEC.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RrhhRepository.cs">
+      <DependentUpon>RepositoryPEC.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SubAlamacenRepository.cs">
+      <DependentUpon>RepositoryPEC.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Logistica.Dominio.Entidades\Logistica.Dominio.Entidades.csproj">
+      <Project>{efc050b8-0577-4880-a110-acaad8afc246}</Project>
+      <Name>Logistica.Dominio.Entidades</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Logistica.Dominio.RepositorioInterfaces\Logistica.Dominio.RepositorioInterfaces.csproj">
+      <Project>{8d58e602-ab40-4f99-b2fa-4a1b613874d8}</Project>
+      <Name>Logistica.Dominio.RepositorioInterfaces</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Repositorios\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="RepositoryPEC.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>RepositoryPEC.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

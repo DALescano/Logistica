@@ -1,0 +1,14 @@
+C:\Disco D\PEC\Med.PEC.Framework\bin\Debug\Med.PEC.Framework.dll
+C:\Disco D\PEC\Med.PEC.Framework\bin\Debug\Med.PEC.Framework.pdb
+C:\Disco D\PEC\Med.PEC.Framework\bin\Debug\AutoMapper.dll
+C:\Disco D\PEC\Med.PEC.Framework\bin\Debug\EntityFramework.Extended.dll
+C:\Disco D\PEC\Med.PEC.Framework\bin\Debug\Med.Comun.Core.dll
+C:\Disco D\PEC\Med.PEC.Framework\bin\Debug\Med.PEC.Entidades.dll
+C:\Disco D\PEC\Med.PEC.Framework\bin\Debug\Med.PEC.Entidades.pdb
+C:\Disco D\PEC\Med.PEC.Framework\bin\Debug\AutoMapper.xml
+C:\Disco D\PEC\Med.PEC.Framework\bin\Debug\EntityFramework.Extended.xml
+C:\Disco D\PEC\Med.PEC.Framework\bin\Debug\EntityFramework.Extended.dll.config
+C:\Disco D\PEC\Med.PEC.Framework\obj\Debug\Med.PEC.Framework.csprojResolveAssemblyReference.cache
+C:\Disco D\PEC\Med.PEC.Framework\obj\Debug\Med.PEC.Framework.csproj.CoreCompileInputs.cache
+C:\Disco D\PEC\Med.PEC.Framework\obj\Debug\Med.PEC.Framework.dll
+C:\Disco D\PEC\Med.PEC.Framework\obj\Debug\Med.PEC.Framework.pdb

@@ -1,0 +1,168 @@
+C:\Disco D\PEC\Logistica.Presentacion\bin\ApplicationInsights.config
+C:\Disco D\PEC\Logistica.Presentacion\bin\Logistica.Presentacion.dll.config
+C:\Disco D\PEC\Logistica.Presentacion\bin\Logistica.Presentacion.dll
+C:\Disco D\PEC\Logistica.Presentacion\bin\Logistica.Presentacion.pdb
+C:\Disco D\PEC\Logistica.Presentacion\bin\Antlr3.Runtime.dll
+C:\Disco D\PEC\Logistica.Presentacion\bin\Autofac.dll
+C:\Disco D\PEC\Logistica.Presentacion\bin\Autofac.Integration.Mvc.dll
+C:\Disco D\PEC\Logistica.Presentacion\bin\Logistica.Servicios.Host.dll
+C:\Disco D\PEC\Logistica.Presentacion\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Disco D\PEC\Logistica.Presentacion\bin\Microsoft.AI.DependencyCollector.dll
+C:\Disco D\PEC\Logistica.Presentacion\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Disco D\PEC\Logistica.Presentacion\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Disco D\PEC\Logistica.Presentacion\bin\Microsoft.AI.Web.dll
+C:\Disco D\PEC\Logistica.Presentacion\bin\Microsoft.AI.WindowsServer.dll
+C:\Disco D\PEC\Logistica.Presentacion\bin\Microsoft.ApplicationInsights.dll
+C:\Disco D\PEC\Logistica.Presentacion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Disco D\PEC\Logistica.Presentacion\bin\Microsoft.Web.Infrastructure.dll
+C:\Disco D\PEC\Logistica.Presentacion\bin\Newtonsoft.Json.dll
+C:\Disco D\PEC\Logistica.Presentacion\bin\System.Web.Helpers.dll
+C:\Disco D\PEC\Logistica.Presentacion\bin\System.Web.Http.dll
+C:\Disco D\PEC\Logistica.Presentacion\bin\System.Web.Mvc.dll
+C:\Disco D\PEC\Logistica.Presentacion\bin\System.Web.Optimization.dll
+C:\Disco D\PEC\Logistica.Presentacion\bin\System.Web.Razor.dll
+C:\Disco D\PEC\Logistica.Presentacion\bin\System.Web.WebPages.Deployment.dll
+C:\Disco D\PEC\Logistica.Presentacion\bin\System.Web.WebPages.dll
+C:\Disco D\PEC\Logistica.Presentacion\bin\System.Web.WebPages.Razor.dll
+C:\Disco D\PEC\Logistica.Presentacion\bin\WebGrease.dll
+C:\Disco D\PEC\Logistica.Presentacion\bin\Med.Comun.Core.dll
+C:\Disco D\PEC\Logistica.Presentacion\bin\Logistica.Framework.dll
+C:\Disco D\PEC\Logistica.Presentacion\bin\Med.Comun.Datos.Core.dll
+C:\Disco D\PEC\Logistica.Presentacion\bin\Logistica.Datos.Modelo.dll
+C:\Disco D\PEC\Logistica.Presentacion\bin\Logistica.Datos.Interfaces.dll
+C:\Disco D\PEC\Logistica.Presentacion\bin\Med.Comun.Datos.ICore.dll
+C:\Disco D\PEC\Logistica.Presentacion\bin\Autofac.Integration.Wcf.dll
+C:\Disco D\PEC\Logistica.Presentacion\bin\System.Net.Http.Formatting.dll
+C:\Disco D\PEC\Logistica.Presentacion\bin\AutoMapper.dll
+C:\Disco D\PEC\Logistica.Presentacion\bin\Logistica.Dominio.Entidades.dll
+C:\Disco D\PEC\Logistica.Presentacion\bin\Logistica.Servicios.Host.pdb
+C:\Disco D\PEC\Logistica.Presentacion\bin\Logistica.Servicios.Host.dll.config
+C:\Disco D\PEC\Logistica.Presentacion\bin\Autofac.xml
+C:\Disco D\PEC\Logistica.Presentacion\bin\Autofac.Integration.Mvc.xml
+C:\Disco D\PEC\Logistica.Presentacion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Disco D\PEC\Logistica.Presentacion\bin\System.Web.Http.xml
+C:\Disco D\PEC\Logistica.Presentacion\bin\System.Web.Helpers.xml
+C:\Disco D\PEC\Logistica.Presentacion\bin\System.Web.Mvc.xml
+C:\Disco D\PEC\Logistica.Presentacion\bin\System.Web.Optimization.xml
+C:\Disco D\PEC\Logistica.Presentacion\bin\System.Web.Razor.xml
+C:\Disco D\PEC\Logistica.Presentacion\bin\System.Web.WebPages.xml
+C:\Disco D\PEC\Logistica.Presentacion\bin\System.Web.WebPages.Deployment.xml
+C:\Disco D\PEC\Logistica.Presentacion\bin\System.Web.WebPages.Razor.xml
+C:\Disco D\PEC\Logistica.Presentacion\bin\Antlr3.Runtime.pdb
+C:\Disco D\PEC\Logistica.Presentacion\bin\Newtonsoft.Json.xml
+C:\Disco D\PEC\Logistica.Presentacion\bin\Microsoft.ApplicationInsights.xml
+C:\Disco D\PEC\Logistica.Presentacion\bin\Microsoft.AI.DependencyCollector.xml
+C:\Disco D\PEC\Logistica.Presentacion\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Disco D\PEC\Logistica.Presentacion\bin\Microsoft.AI.WindowsServer.xml
+C:\Disco D\PEC\Logistica.Presentacion\bin\Microsoft.AI.Web.xml
+C:\Disco D\PEC\Logistica.Presentacion\bin\Logistica.Framework.pdb
+C:\Disco D\PEC\Logistica.Presentacion\bin\Logistica.Datos.Modelo.pdb
+C:\Disco D\PEC\Logistica.Presentacion\bin\Logistica.Datos.Modelo.dll.config
+C:\Disco D\PEC\Logistica.Presentacion\bin\Logistica.Datos.Interfaces.pdb
+C:\Disco D\PEC\Logistica.Presentacion\bin\Autofac.Integration.Wcf.xml
+C:\Disco D\PEC\Logistica.Presentacion\bin\System.Net.Http.Formatting.xml
+C:\Disco D\PEC\Logistica.Presentacion\bin\AutoMapper.xml
+C:\Disco D\PEC\Logistica.Presentacion\bin\Logistica.Dominio.Entidades.pdb
+C:\Disco D\PEC\Logistica.Presentacion\bin\es\System.Web.Helpers.resources.dll
+C:\Disco D\PEC\Logistica.Presentacion\bin\es\System.Web.Mvc.resources.dll
+C:\Disco D\PEC\Logistica.Presentacion\bin\es\System.Web.Optimization.resources.dll
+C:\Disco D\PEC\Logistica.Presentacion\bin\es\System.Web.Razor.resources.dll
+C:\Disco D\PEC\Logistica.Presentacion\bin\es\System.Web.WebPages.resources.dll
+C:\Disco D\PEC\Logistica.Presentacion\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Disco D\PEC\Logistica.Presentacion\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Disco D\PEC\Logistica.Presentacion\obj\Debug\Logistica.Presentacion.csprojResolveAssemblyReference.cache
+C:\Disco D\PEC\Logistica.Presentacion\obj\Debug\Logistica.Presentacion.csproj.CoreCompileInputs.cache
+C:\Disco D\PEC\Logistica.Presentacion\obj\Debug\Logistica.Presentacion.dll
+C:\Disco D\PEC\Logistica.Presentacion\obj\Debug\Logistica.Presentacion.pdb
+C:\Disco D\PEC\Logistica.Presentacion\bin\Logistica.Entidades.dll
+C:\Disco D\PEC\Logistica.Presentacion\bin\Logistica.Presentacion.IoC.dll
+C:\Disco D\PEC\Logistica.Presentacion\bin\Logistica.Aplicacion.Interfaces.dll
+C:\Disco D\PEC\Logistica.Presentacion\bin\EntityFramework.dll
+C:\Disco D\PEC\Logistica.Presentacion\bin\Logistica.Entidades.pdb
+C:\Disco D\PEC\Logistica.Presentacion\bin\Logistica.Presentacion.IoC.pdb
+C:\Disco D\PEC\Logistica.Presentacion\bin\Logistica.Presentacion.IoC.dll.config
+C:\Disco D\PEC\Logistica.Presentacion\bin\Logistica.Aplicacion.Interfaces.pdb
+C:\Disco D\PEC\Logistica.Presentacion\bin\EntityFramework.xml
+C:\Disco D\PEC\Logistica.Presentacion\bin\System.Web.Http.WebHost.dll
+C:\Disco D\PEC\Logistica.Presentacion\bin\System.Web.Http.WebHost.xml
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\bin\ApplicationInsights.config
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\bin\Logistica.Presentacion.dll.config
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\bin\Logistica.Presentacion.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\bin\Logistica.Presentacion.pdb
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\bin\Antlr3.Runtime.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\bin\Autofac.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\bin\Autofac.Integration.Mvc.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\bin\Logistica.Entidades.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\bin\Logistica.Framework.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\bin\Logistica.Presentacion.IoC.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\bin\Logistica.Servicios.Host.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\bin\Microsoft.AI.Web.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\bin\Microsoft.ApplicationInsights.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\bin\Newtonsoft.Json.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\bin\System.Web.Helpers.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\bin\System.Web.Mvc.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\bin\System.Web.Optimization.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\bin\System.Web.Razor.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\bin\System.Web.WebPages.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\bin\System.Web.WebPages.Razor.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\bin\WebGrease.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\bin\AutoMapper.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\bin\Med.Comun.Core.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\bin\Med.Comun.Datos.Core.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\bin\Logistica.Datos.Modelo.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\bin\Logistica.Datos.Interfaces.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\bin\Med.Comun.Datos.ICore.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\bin\Autofac.Integration.Wcf.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\bin\Logistica.Aplicacion.Interfaces.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\bin\EntityFramework.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\bin\Logistica.Dominio.Entidades.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\bin\Logistica.Entidades.pdb
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\bin\Logistica.Framework.pdb
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\bin\Logistica.Presentacion.IoC.pdb
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\bin\Logistica.Presentacion.IoC.dll.config
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\bin\Logistica.Servicios.Host.pdb
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\bin\Logistica.Servicios.Host.dll.config
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\bin\Autofac.xml
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\bin\Autofac.Integration.Mvc.xml
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\bin\System.Web.Helpers.xml
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\bin\System.Web.Mvc.xml
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\bin\System.Web.Optimization.xml
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\bin\System.Web.Razor.xml
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\bin\System.Web.WebPages.xml
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\bin\System.Web.WebPages.Razor.xml
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\bin\Antlr3.Runtime.pdb
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\bin\Newtonsoft.Json.xml
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\bin\Microsoft.ApplicationInsights.xml
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\bin\Microsoft.AI.Web.xml
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\bin\AutoMapper.xml
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\bin\Logistica.Datos.Modelo.pdb
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\bin\Logistica.Datos.Modelo.dll.config
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\bin\Logistica.Datos.Interfaces.pdb
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\bin\Autofac.Integration.Wcf.xml
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\bin\Logistica.Aplicacion.Interfaces.pdb
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\bin\EntityFramework.xml
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\bin\Logistica.Dominio.Entidades.pdb
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\bin\es\System.Web.Helpers.resources.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\bin\es\System.Web.Mvc.resources.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\bin\es\System.Web.Optimization.resources.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\bin\es\System.Web.Razor.resources.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\bin\es\System.Web.WebPages.resources.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\obj\Debug\Logistica.Presentacion.csprojResolveAssemblyReference.cache
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\obj\Debug\Logistica.Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\obj\Debug\Logistica.Presentacion.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Presentacion\obj\Debug\Logistica.Presentacion.pdb

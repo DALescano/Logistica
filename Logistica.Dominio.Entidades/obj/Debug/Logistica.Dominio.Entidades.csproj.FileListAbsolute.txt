@@ -1,0 +1,15 @@
+C:\Disco D\PEC\Med.PEC.Dominio.Entidades\bin\Debug\Logistica.Dominio.Entidades.dll
+C:\Disco D\PEC\Med.PEC.Dominio.Entidades\bin\Debug\Logistica.Dominio.Entidades.pdb
+C:\Disco D\PEC\Med.PEC.Dominio.Entidades\obj\Debug\Logistica.Dominio.Entidades.csproj.CoreCompileInputs.cache
+C:\Disco D\PEC\Med.PEC.Dominio.Entidades\obj\Debug\Logistica.Dominio.Entidades.dll
+C:\Disco D\PEC\Med.PEC.Dominio.Entidades\obj\Debug\Logistica.Dominio.Entidades.pdb
+C:\Disco D\PEC\Logistica.Dominio.Entidades\bin\Debug\Logistica.Dominio.Entidades.dll
+C:\Disco D\PEC\Logistica.Dominio.Entidades\bin\Debug\Logistica.Dominio.Entidades.pdb
+C:\Disco D\PEC\Logistica.Dominio.Entidades\obj\Debug\Logistica.Dominio.Entidades.csproj.CoreCompileInputs.cache
+C:\Disco D\PEC\Logistica.Dominio.Entidades\obj\Debug\Logistica.Dominio.Entidades.dll
+C:\Disco D\PEC\Logistica.Dominio.Entidades\obj\Debug\Logistica.Dominio.Entidades.pdb
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Dominio.Entidades\bin\Debug\Logistica.Dominio.Entidades.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Dominio.Entidades\bin\Debug\Logistica.Dominio.Entidades.pdb
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Dominio.Entidades\obj\Debug\Logistica.Dominio.Entidades.csproj.CoreCompileInputs.cache
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Dominio.Entidades\obj\Debug\Logistica.Dominio.Entidades.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Dominio.Entidades\obj\Debug\Logistica.Dominio.Entidades.pdb

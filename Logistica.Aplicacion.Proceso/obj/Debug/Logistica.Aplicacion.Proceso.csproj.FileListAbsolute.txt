@@ -1,0 +1,20 @@
+C:\Disco D\PEC\Med.PEC.Aplicacion.Proceso\obj\Debug\Logistica.Aplicacion.Proceso.csproj.CoreCompileInputs.cache
+C:\Disco D\PEC\Med.PEC.Aplicacion.Proceso\obj\Debug\Logistica.Aplicacion.Proceso.csprojResolveAssemblyReference.cache
+C:\Disco D\PEC\Logistica.Aplicacion.Proceso\bin\Debug\Logistica.Aplicacion.Proceso.dll
+C:\Disco D\PEC\Logistica.Aplicacion.Proceso\bin\Debug\Logistica.Aplicacion.Proceso.pdb
+C:\Disco D\PEC\Logistica.Aplicacion.Proceso\bin\Debug\Logistica.Entidades.dll
+C:\Disco D\PEC\Logistica.Aplicacion.Proceso\bin\Debug\Med.Comun.Core.dll
+C:\Disco D\PEC\Logistica.Aplicacion.Proceso\bin\Debug\Logistica.Entidades.pdb
+C:\Disco D\PEC\Logistica.Aplicacion.Proceso\obj\Debug\Logistica.Aplicacion.Proceso.csprojResolveAssemblyReference.cache
+C:\Disco D\PEC\Logistica.Aplicacion.Proceso\obj\Debug\Logistica.Aplicacion.Proceso.csproj.CoreCompileInputs.cache
+C:\Disco D\PEC\Logistica.Aplicacion.Proceso\obj\Debug\Logistica.Aplicacion.Proceso.dll
+C:\Disco D\PEC\Logistica.Aplicacion.Proceso\obj\Debug\Logistica.Aplicacion.Proceso.pdb
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Aplicacion.Proceso\bin\Debug\Logistica.Aplicacion.Proceso.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Aplicacion.Proceso\bin\Debug\Logistica.Aplicacion.Proceso.pdb
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Aplicacion.Proceso\bin\Debug\Logistica.Entidades.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Aplicacion.Proceso\bin\Debug\Med.Comun.Core.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Aplicacion.Proceso\bin\Debug\Logistica.Entidades.pdb
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Aplicacion.Proceso\obj\Debug\Logistica.Aplicacion.Proceso.csprojResolveAssemblyReference.cache
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Aplicacion.Proceso\obj\Debug\Logistica.Aplicacion.Proceso.csproj.CoreCompileInputs.cache
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Aplicacion.Proceso\obj\Debug\Logistica.Aplicacion.Proceso.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Aplicacion.Proceso\obj\Debug\Logistica.Aplicacion.Proceso.pdb

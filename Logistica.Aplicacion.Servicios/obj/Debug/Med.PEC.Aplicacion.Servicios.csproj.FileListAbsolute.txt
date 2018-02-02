@@ -1,0 +1,4 @@
+C:\Disco D\PEC\Med.PEC.Aplicacion.Servicios\obj\Debug\Med.PEC.Aplicacion.Servicios.csprojResolveAssemblyReference.cache
+C:\Disco D\PEC\Med.PEC.Aplicacion.Servicios\obj\Debug\Med.PEC.Aplicacion.Servicios.Mensajes.resources
+C:\Disco D\PEC\Med.PEC.Aplicacion.Servicios\obj\Debug\Med.PEC.Aplicacion.Servicios.csproj.GenerateResource.Cache
+C:\Disco D\PEC\Med.PEC.Aplicacion.Servicios\obj\Debug\Med.PEC.Aplicacion.Servicios.csproj.CoreCompileInputs.cache

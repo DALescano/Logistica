@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <appSettings file="WebKeysHost.config">
+    <add key="webpages:Version" value="3.0.0.0" />
+    <add key="webpages:Enabled" value="false" />
+    <add key="ClientValidationEnabled" value="true" />
+    <add key="UnobtrusiveJavaScriptEnabled" value="true" />
+    <add key="aspnet:UseTaskFriendlySynchronizationContext" value="true" />
+  </appSettings>
+  <system.web>
+    <compilation debug="true" targetFramework="4.5" />
+    <httpRuntime targetFramework="4.5"/>
+  </system.web>
+  <system.serviceModel>
+    <bindings>
+      <wsHttpBinding>
+        <binding name="BindingAdministracionService">
+          <security mode="None">
+            <transport clientCredentialType="None" />
+            <message establishSecurityContext="false"/>
+          </security>
+        </binding>
+      </wsHttpBinding>
+    </bindings>
+    <services>
+      <service name="Med.PEC.Servicios.Host.AdministracionServicio" behaviorConfiguration="BehaviorAdministracionService">
+        <!--<endpoint address="" binding="wsHttpBinding" binding="basicHttpBinding" contract="Med.PEC.Servicios.Host.IAdministracionServicio" >
+          <identity>
+            <dns value="localhost" />
+          </identity>
+        </endpoint>-->
+        <endpoint address="" binding="wsHttpBinding" bindingConfiguration="BindingAdministracionService" contract="Med.PEC.Servicios.Host.IAdministracionServicio" >
+          <identity>
+            <dns value="localhost" />
+          </identity>
+        </endpoint>
+        <endpoint address="mex" binding="mexHttpBinding" contract="IMetadataExchange"/>
+      </service>
+    </services>
+    <behaviors>
+      <serviceBehaviors>
+        <behavior name="BehaviorAdministracionService">
+          <!-- Para evitar revelar información de los metadatos, establezca los valores siguientes en false antes de la implementación -->
+          <serviceMetadata httpGetEnabled="true" httpsGetEnabled="true"/>
+          <!-- Para recibir detalles de las excepciones en los fallos, con el fin de poder realizar la depuración, establezca el valor siguiente en true. Para no revelar información sobre las excepciones, establézcalo en false antes de la implementación -->
+          <serviceDebug includeExceptionDetailInFaults="false"/>
+        </behavior>
+      </serviceBehaviors>
+    </behaviors>
+    <protocolMapping>
+        <add binding="basicHttpsBinding" scheme="https" />
+    </protocolMapping>    
+    <serviceHostingEnvironment aspNetCompatibilityEnabled="true" multipleSiteBindingsEnabled="true" />
+  </system.serviceModel>
+  <system.webServer>
+    <modules runAllManagedModulesForAllRequests="true"/>
+    <!--
+        Para examinar el directorio raíz de la aplicación web durante la depuración, establezca el valor siguiente en true.
+        Establézcalo en false antes de la implementación para evitar revelar información sobre la carpeta de aplicación web.
+      -->
+    <directoryBrowse enabled="true"/>
+  </system.webServer>
+</configuration>

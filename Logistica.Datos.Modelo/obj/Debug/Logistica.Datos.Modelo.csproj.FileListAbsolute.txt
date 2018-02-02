@@ -1,0 +1,52 @@
+C:\Disco D\PEC\Med.PEC.Datos.Modelo\obj\Debug\Logistica.Datos.Modelo.csprojResolveAssemblyReference.cache
+C:\Disco D\PEC\Med.PEC.Datos.Modelo\obj\Debug\Logistica.Datos.Modelo.csproj.CoreCompileInputs.cache
+C:\Disco D\PEC\Logistica.Datos.Modelo\bin\Debug\Logistica.Datos.Modelo.dll.config
+C:\Disco D\PEC\Logistica.Datos.Modelo\bin\Debug\Logistica.Datos.Modelo.dll
+C:\Disco D\PEC\Logistica.Datos.Modelo\bin\Debug\Logistica.Datos.Modelo.pdb
+C:\Disco D\PEC\Logistica.Datos.Modelo\bin\Debug\EntityFramework.dll
+C:\Disco D\PEC\Logistica.Datos.Modelo\bin\Debug\EntityFramework.Extended.dll
+C:\Disco D\PEC\Logistica.Datos.Modelo\bin\Debug\EntityFramework.SqlServer.dll
+C:\Disco D\PEC\Logistica.Datos.Modelo\bin\Debug\Logistica.Datos.Interfaces.dll
+C:\Disco D\PEC\Logistica.Datos.Modelo\bin\Debug\Logistica.Dominio.Entidades.dll
+C:\Disco D\PEC\Logistica.Datos.Modelo\bin\Debug\Logistica.Entidades.dll
+C:\Disco D\PEC\Logistica.Datos.Modelo\bin\Debug\Med.Comun.Core.dll
+C:\Disco D\PEC\Logistica.Datos.Modelo\bin\Debug\Med.Comun.Datos.Core.dll
+C:\Disco D\PEC\Logistica.Datos.Modelo\bin\Debug\Med.Comun.Datos.ICore.dll
+C:\Disco D\PEC\Logistica.Datos.Modelo\bin\Debug\Newtonsoft.Json.dll
+C:\Disco D\PEC\Logistica.Datos.Modelo\bin\Debug\Logistica.Datos.Interfaces.pdb
+C:\Disco D\PEC\Logistica.Datos.Modelo\bin\Debug\Logistica.Dominio.Entidades.pdb
+C:\Disco D\PEC\Logistica.Datos.Modelo\bin\Debug\Logistica.Entidades.pdb
+C:\Disco D\PEC\Logistica.Datos.Modelo\bin\Debug\EntityFramework.xml
+C:\Disco D\PEC\Logistica.Datos.Modelo\bin\Debug\EntityFramework.Extended.xml
+C:\Disco D\PEC\Logistica.Datos.Modelo\bin\Debug\EntityFramework.Extended.dll.config
+C:\Disco D\PEC\Logistica.Datos.Modelo\bin\Debug\EntityFramework.SqlServer.xml
+C:\Disco D\PEC\Logistica.Datos.Modelo\bin\Debug\Newtonsoft.Json.xml
+C:\Disco D\PEC\Logistica.Datos.Modelo\obj\Debug\Logistica.Datos.Modelo.csprojResolveAssemblyReference.cache
+C:\Disco D\PEC\Logistica.Datos.Modelo\obj\Debug\Logistica.Datos.Modelo.csproj.CoreCompileInputs.cache
+C:\Disco D\PEC\Logistica.Datos.Modelo\obj\Debug\Logistica.Datos.Modelo.dll
+C:\Disco D\PEC\Logistica.Datos.Modelo\obj\Debug\Logistica.Datos.Modelo.pdb
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Datos.Modelo\bin\Debug\Logistica.Datos.Modelo.dll.config
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Datos.Modelo\bin\Debug\Logistica.Datos.Modelo.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Datos.Modelo\bin\Debug\Logistica.Datos.Modelo.pdb
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Datos.Modelo\bin\Debug\EntityFramework.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Datos.Modelo\bin\Debug\EntityFramework.Extended.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Datos.Modelo\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Datos.Modelo\bin\Debug\Logistica.Datos.Interfaces.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Datos.Modelo\bin\Debug\Logistica.Dominio.Entidades.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Datos.Modelo\bin\Debug\Logistica.Entidades.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Datos.Modelo\bin\Debug\Med.Comun.Core.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Datos.Modelo\bin\Debug\Med.Comun.Datos.Core.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Datos.Modelo\bin\Debug\Med.Comun.Datos.ICore.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Datos.Modelo\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Datos.Modelo\bin\Debug\Logistica.Datos.Interfaces.pdb
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Datos.Modelo\bin\Debug\Logistica.Dominio.Entidades.pdb
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Datos.Modelo\bin\Debug\Logistica.Entidades.pdb
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Datos.Modelo\bin\Debug\EntityFramework.xml
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Datos.Modelo\bin\Debug\EntityFramework.Extended.xml
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Datos.Modelo\bin\Debug\EntityFramework.Extended.dll.config
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Datos.Modelo\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Datos.Modelo\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Datos.Modelo\obj\Debug\Logistica.Datos.Modelo.csprojResolveAssemblyReference.cache
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Datos.Modelo\obj\Debug\Logistica.Datos.Modelo.csproj.CoreCompileInputs.cache
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Datos.Modelo\obj\Debug\Logistica.Datos.Modelo.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Datos.Modelo\obj\Debug\Logistica.Datos.Modelo.pdb

@@ -1,0 +1,12 @@
+C:\Disco D\PEC\Med.PEC.Datos.Interfaces\bin\Debug\Med.PEC.Datos.Interfaces.dll
+C:\Disco D\PEC\Med.PEC.Datos.Interfaces\bin\Debug\Med.PEC.Datos.Interfaces.pdb
+C:\Disco D\PEC\Med.PEC.Datos.Interfaces\bin\Debug\Med.Comun.Core.dll
+C:\Disco D\PEC\Med.PEC.Datos.Interfaces\bin\Debug\Med.Comun.Datos.ICore.dll
+C:\Disco D\PEC\Med.PEC.Datos.Interfaces\bin\Debug\Med.PEC.Entidades.dll
+C:\Disco D\PEC\Med.PEC.Datos.Interfaces\bin\Debug\Newtonsoft.Json.dll
+C:\Disco D\PEC\Med.PEC.Datos.Interfaces\bin\Debug\Med.PEC.Entidades.pdb
+C:\Disco D\PEC\Med.PEC.Datos.Interfaces\bin\Debug\Newtonsoft.Json.xml
+C:\Disco D\PEC\Med.PEC.Datos.Interfaces\obj\Debug\Med.PEC.Datos.Interfaces.csprojResolveAssemblyReference.cache
+C:\Disco D\PEC\Med.PEC.Datos.Interfaces\obj\Debug\Med.PEC.Datos.Interfaces.csproj.CoreCompileInputs.cache
+C:\Disco D\PEC\Med.PEC.Datos.Interfaces\obj\Debug\Med.PEC.Datos.Interfaces.dll
+C:\Disco D\PEC\Med.PEC.Datos.Interfaces\obj\Debug\Med.PEC.Datos.Interfaces.pdb

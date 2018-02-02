@@ -1,0 +1,842 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ModeloPEC" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="PECDbContext" annotation:LazyLoadingEnabled="false">
+    <EntitySet Name="Agencias" EntityType="ModeloPEC.Agencias" />
+    <EntitySet Name="Areas" EntityType="ModeloPEC.Areas" />
+    <EntitySet Name="Categoria" EntityType="ModeloPEC.Categoria" />
+    <EntitySet Name="Constante" EntityType="ModeloPEC.Constante" />
+    <EntitySet Name="OpeTpo" EntityType="ModeloPEC.OpeTpo" />
+    <EntitySet Name="Menu" EntityType="ModeloPEC.Menu" />
+    <EntitySet Name="MenuOpciones" EntityType="ModeloPEC.MenuOpciones" />
+    <EntitySet Name="MenuOpcionRol" EntityType="ModeloPEC.MenuOpcionRol" />
+    <EntitySet Name="Opciones" EntityType="ModeloPEC.Opciones" />
+    <EntitySet Name="Roles" EntityType="ModeloPEC.Roles" />
+    <AssociationSet Name="FK_MenuOpciones_Menu" Association="ModeloPEC.FK_MenuOpciones_Menu">
+      <End Role="Menu" EntitySet="Menu" />
+      <End Role="MenuOpciones" EntitySet="MenuOpciones" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MenuOpciones_Opciones" Association="ModeloPEC.FK_MenuOpciones_Opciones">
+      <End Role="Opciones" EntitySet="Opciones" />
+      <End Role="MenuOpciones" EntitySet="MenuOpciones" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MenuOpcionRol_MenuOpciones" Association="ModeloPEC.FK_MenuOpcionRol_MenuOpciones">
+      <End Role="MenuOpciones" EntitySet="MenuOpciones" />
+      <End Role="MenuOpcionRol" EntitySet="MenuOpcionRol" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MenuOpcionRol_Roles" Association="ModeloPEC.FK_MenuOpcionRol_Roles">
+      <End Role="Roles" EntitySet="Roles" />
+      <End Role="MenuOpcionRol" EntitySet="MenuOpcionRol" />
+    </AssociationSet>
+    <EntitySet Name="RHcargos" EntityType="ModeloPEC.RHcargos" />
+    <EntitySet Name="rrhh" EntityType="ModeloPEC.rrhh" />
+    <EntitySet Name="RHCargosPersona" EntityType="ModeloPEC.RHCargosPersona" />
+    <EntitySet Name="RolCargo" EntityType="ModeloPEC.RolCargo" />
+    <AssociationSet Name="FK_RHCargosPersona_RHcargos" Association="ModeloPEC.FK_RHCargosPersona_RHcargos">
+      <End Role="RHcargos" EntitySet="RHcargos" />
+      <End Role="RHCargosPersona" EntitySet="RHCargosPersona" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RolCargo_RHcargos" Association="ModeloPEC.FK_RolCargo_RHcargos">
+      <End Role="RHcargos" EntitySet="RHcargos" />
+      <End Role="RolCargo" EntitySet="RolCargo" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RolCargo_Roles" Association="ModeloPEC.FK_RolCargo_Roles">
+      <End Role="Roles" EntitySet="Roles" />
+      <End Role="RolCargo" EntitySet="RolCargo" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RHCargosPersona_rrhh" Association="ModeloPEC.FK_RHCargosPersona_rrhh">
+      <End Role="rrhh" EntitySet="rrhh" />
+      <End Role="RHCargosPersona" EntitySet="RHCargosPersona" />
+    </AssociationSet>
+    <EntitySet Name="Producto" EntityType="ModeloPEC.Producto" />
+    <EntitySet Name="ProductoDetalle" EntityType="ModeloPEC.ProductoDetalle" />
+    <EntitySet Name="SubAlamacen" EntityType="ModeloPEC.SubAlamacen" />
+    <AssociationSet Name="FK_SubAlamacen_Agencias" Association="ModeloPEC.FK_SubAlamacen_Agencias">
+      <End Role="Agencias" EntitySet="Agencias" />
+      <End Role="SubAlamacen" EntitySet="SubAlamacen" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProductoDetalle_Producto" Association="ModeloPEC.FK_ProductoDetalle_Producto">
+      <End Role="Producto" EntitySet="Producto" />
+      <End Role="ProductoDetalle" EntitySet="ProductoDetalle" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProductoDetalle_SubAlamacen" Association="ModeloPEC.FK_ProductoDetalle_SubAlamacen">
+      <End Role="SubAlamacen" EntitySet="SubAlamacen" />
+      <End Role="ProductoDetalle" EntitySet="ProductoDetalle" />
+    </AssociationSet>
+    <EntitySet Name="LogDevolucion" EntityType="ModeloPEC.LogDevolucion" />
+    <EntitySet Name="MovBS" EntityType="ModeloPEC.MovBS" />
+    <EntitySet Name="Mov" EntityType="ModeloPEC.Mov" />
+    <EntitySet Name="MovCta" EntityType="ModeloPEC.MovCta" />
+    <AssociationSet Name="FK_LogDevolucion_Mov" Association="ModeloPEC.FK_LogDevolucion_Mov">
+      <End Role="Mov" EntitySet="Mov" />
+      <End Role="LogDevolucion" EntitySet="LogDevolucion" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Mov_OpeTpo" Association="ModeloPEC.FK_Mov_OpeTpo">
+      <End Role="OpeTpo" EntitySet="OpeTpo" />
+      <End Role="Mov" EntitySet="Mov" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MovBS_Mov" Association="ModeloPEC.FK_MovBS_Mov">
+      <End Role="Mov" EntitySet="Mov" />
+      <End Role="MovBS" EntitySet="MovBS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MovCta_Mov" Association="ModeloPEC.FK_MovCta_Mov">
+      <End Role="Mov" EntitySet="Mov" />
+      <End Role="MovCta" EntitySet="MovCta" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProductoDetalle_Mov" Association="ModeloPEC.FK_ProductoDetalle_Mov">
+      <End Role="Mov" EntitySet="Mov" />
+      <End Role="ProductoDetalle" EntitySet="ProductoDetalle" />
+    </AssociationSet>
+    <EntitySet Name="DetalleProceso" EntityType="ModeloPEC.DetalleProceso" />
+    <EntitySet Name="Proceso" EntityType="ModeloPEC.Proceso" />
+    <AssociationSet Name="FK_DetalleProceso_Proceso" Association="ModeloPEC.FK_DetalleProceso_Proceso">
+      <End Role="Proceso" EntitySet="Proceso" />
+      <End Role="DetalleProceso" EntitySet="DetalleProceso" />
+    </AssociationSet>
+    <EntitySet Name="Persona" EntityType="ModeloPEC.Persona" />
+    <EntitySet Name="PersonaDireccion" EntityType="ModeloPEC.PersonaDireccion" />
+    <AssociationSet Name="FK_PersonaDireccion_Persona" Association="ModeloPEC.FK_PersonaDireccion_Persona">
+      <End Role="Persona" EntitySet="Persona" />
+      <End Role="PersonaDireccion" EntitySet="PersonaDireccion" />
+    </AssociationSet>
+    <EntitySet Name="BienesServicios" EntityType="ModeloPEC.BienesServicios" />
+    <EntitySet Name="BSSaldos" EntityType="ModeloPEC.BSSaldos" />
+    <AssociationSet Name="FK_BSSaldos_BienesServicios" Association="ModeloPEC.FK_BSSaldos_BienesServicios">
+      <End Role="BienesServicios" EntitySet="BienesServicios" />
+      <End Role="BSSaldos" EntitySet="BSSaldos" />
+    </AssociationSet>
+    <EntitySet Name="BSSerie" EntityType="ModeloPEC.BSSerie" />
+    <EntitySet Name="CodigoBarra" EntityType="ModeloPEC.CodigoBarra" />
+    <EntitySet Name="ConstSistema" EntityType="ModeloPEC.ConstSistema" />
+    <EntitySet Name="CtaBS" EntityType="ModeloPEC.CtaBS" />
+    <EntitySet Name="MovBSSerie" EntityType="ModeloPEC.MovBSSerie" />
+    <AssociationSet Name="FK_BSSerie_MovBSSerie" Association="ModeloPEC.FK_BSSerie_MovBSSerie">
+      <End Role="MovBSSerie" EntitySet="MovBSSerie" />
+      <End Role="BSSerie" EntitySet="BSSerie" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Agencias">
+    <Key>
+      <PropertyRef Name="cAgeCod" />
+    </Key>
+    <Property Name="cAgeCod" Type="String" Nullable="false" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="cAgeDescripcion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="SubAlamacen" Relationship="ModeloPEC.FK_SubAlamacen_Agencias" FromRole="Agencias" ToRole="SubAlamacen" />
+  </EntityType>
+  <EntityType Name="Areas">
+    <Key>
+      <PropertyRef Name="cAreaCod" />
+    </Key>
+    <Property Name="cAreaCod" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="cAreaDescripcion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="Categoria">
+    <Key>
+      <PropertyRef Name="idCategoria" />
+    </Key>
+    <Property Name="idCategoria" Type="Guid" Nullable="false" />
+    <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="IdCategoriaSuperior" Type="Int32" />
+    <Property Name="esPrincipal" Type="Boolean" />
+    <Property Name="Filtro" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Codigo" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Constante">
+    <Key>
+      <PropertyRef Name="idCons" />
+    </Key>
+    <Property Name="idCons" Type="Guid" Nullable="false" />
+    <Property Name="nConsValor" Type="Int32" />
+    <Property Name="nConsCod" Type="Int32" />
+    <Property Name="cConsDescripcion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="OpeTpo">
+    <Key>
+      <PropertyRef Name="idOpeTpo" />
+    </Key>
+    <Property Name="idOpeTpo" Type="Guid" Nullable="false" />
+    <Property Name="cOpeDesc" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="cOpeVisible" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Mov" Relationship="ModeloPEC.FK_Mov_OpeTpo" FromRole="OpeTpo" ToRole="Mov" />
+  </EntityType>
+  <EntityType Name="Menu">
+    <Key>
+      <PropertyRef Name="idMenu" />
+    </Key>
+    <Property Name="idMenu" Type="Guid" Nullable="false" />
+    <Property Name="cMenu" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="bEstado" Type="Boolean" Nullable="false" />
+    <Property Name="dFecIngreso" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="dFecMod" Type="DateTime" Precision="3" />
+    <Property Name="cUsu" Type="String" Nullable="false" MaxLength="6" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="MenuOpciones" Relationship="ModeloPEC.FK_MenuOpciones_Menu" FromRole="Menu" ToRole="MenuOpciones" />
+  </EntityType>
+  <EntityType Name="MenuOpciones">
+    <Key>
+      <PropertyRef Name="idMenuOpcion" />
+    </Key>
+    <Property Name="idMenu" Type="Guid" />
+    <Property Name="idOpcion" Type="Guid" />
+    <Property Name="idMenuOpcion" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Menu" Relationship="ModeloPEC.FK_MenuOpciones_Menu" FromRole="MenuOpciones" ToRole="Menu" />
+    <NavigationProperty Name="Opciones" Relationship="ModeloPEC.FK_MenuOpciones_Opciones" FromRole="MenuOpciones" ToRole="Opciones" />
+    <NavigationProperty Name="MenuOpcionRol" Relationship="ModeloPEC.FK_MenuOpcionRol_MenuOpciones" FromRole="MenuOpciones" ToRole="MenuOpcionRol" />
+  </EntityType>
+  <EntityType Name="MenuOpcionRol">
+    <Key>
+      <PropertyRef Name="idMenuOpcionRol" />
+    </Key>
+    <Property Name="idMenuOpcionRol" Type="Int32" Nullable="false" />
+    <Property Name="idRol" Type="Guid" Nullable="false" />
+    <Property Name="idMenuOpcion" Type="Int32" Nullable="false" />
+    <Property Name="bEstado" Type="Boolean" Nullable="false" />
+    <Property Name="dFecIngreso" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="dFecMod" Type="DateTime" Precision="3" />
+    <Property Name="cUsu" Type="String" MaxLength="6" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="MenuOpciones" Relationship="ModeloPEC.FK_MenuOpcionRol_MenuOpciones" FromRole="MenuOpcionRol" ToRole="MenuOpciones" />
+    <NavigationProperty Name="Roles" Relationship="ModeloPEC.FK_MenuOpcionRol_Roles" FromRole="MenuOpcionRol" ToRole="Roles" />
+  </EntityType>
+  <EntityType Name="Opciones">
+    <Key>
+      <PropertyRef Name="idOpcion" />
+    </Key>
+    <Property Name="idOpcion" Type="Guid" Nullable="false" />
+    <Property Name="cOpcion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="bEstado" Type="Boolean" Nullable="false" />
+    <Property Name="dFecIngreso" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="dFecMod" Type="DateTime" Precision="3" />
+    <Property Name="cUsu" Type="String" Nullable="false" MaxLength="6" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="MenuOpciones" Relationship="ModeloPEC.FK_MenuOpciones_Opciones" FromRole="Opciones" ToRole="MenuOpciones" />
+  </EntityType>
+  <EntityType Name="Roles">
+    <Key>
+      <PropertyRef Name="idRol" />
+    </Key>
+    <Property Name="idRol" Type="Guid" Nullable="false" />
+    <Property Name="bEstado" Type="Boolean" Nullable="false" />
+    <Property Name="dFecIngreso" Type="DateTime" Precision="3" />
+    <Property Name="dFecMod" Type="DateTime" Precision="3" />
+    <Property Name="cUsu" Type="String" MaxLength="6" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="MenuOpcionRol" Relationship="ModeloPEC.FK_MenuOpcionRol_Roles" FromRole="Roles" ToRole="MenuOpcionRol" />
+    <NavigationProperty Name="RolCargo" Relationship="ModeloPEC.FK_RolCargo_Roles" FromRole="Roles" ToRole="RolCargo" />
+  </EntityType>
+  <Association Name="FK_MenuOpciones_Menu">
+    <End Type="ModeloPEC.Menu" Role="Menu" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="ModeloPEC.MenuOpciones" Role="MenuOpciones" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Menu">
+        <PropertyRef Name="idMenu" />
+      </Principal>
+      <Dependent Role="MenuOpciones">
+        <PropertyRef Name="idMenu" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MenuOpciones_Opciones">
+    <End Type="ModeloPEC.Opciones" Role="Opciones" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="ModeloPEC.MenuOpciones" Role="MenuOpciones" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Opciones">
+        <PropertyRef Name="idOpcion" />
+      </Principal>
+      <Dependent Role="MenuOpciones">
+        <PropertyRef Name="idOpcion" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MenuOpcionRol_MenuOpciones">
+    <End Type="ModeloPEC.MenuOpciones" Role="MenuOpciones" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="ModeloPEC.MenuOpcionRol" Role="MenuOpcionRol" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MenuOpciones">
+        <PropertyRef Name="idMenuOpcion" />
+      </Principal>
+      <Dependent Role="MenuOpcionRol">
+        <PropertyRef Name="idMenuOpcion" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MenuOpcionRol_Roles">
+    <End Type="ModeloPEC.Roles" Role="Roles" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="ModeloPEC.MenuOpcionRol" Role="MenuOpcionRol" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Roles">
+        <PropertyRef Name="idRol" />
+      </Principal>
+      <Dependent Role="MenuOpcionRol">
+        <PropertyRef Name="idRol" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="RHcargos">
+    <Key>
+      <PropertyRef Name="idRHCargoCod" />
+    </Key>
+    <Property Name="dRHCargoFecha" Type="DateTime" Precision="3" />
+    <Property Name="idRHCargoCod" Type="Guid" Nullable="false" />
+    <Property Name="bEstado" Type="Boolean" />
+    <NavigationProperty Name="RHCargosPersona" Relationship="ModeloPEC.FK_RHCargosPersona_RHcargos" FromRole="RHcargos" ToRole="RHCargosPersona" />
+    <NavigationProperty Name="RolCargo" Relationship="ModeloPEC.FK_RolCargo_RHcargos" FromRole="RHcargos" ToRole="RolCargo" />
+  </EntityType>
+  <EntityType Name="rrhh">
+    <Key>
+      <PropertyRef Name="idRHCod" />
+    </Key>
+    <Property Name="idRHCod" Type="Guid" Nullable="false" />
+    <Property Name="cPersCod" Type="Int32" />
+    <Property Name="nRHEstado" Type="Int32" />
+    <Property Name="cClave" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="cUser" Type="String" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Name="cAreaCod" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="cAreaCodActual" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="cAgenciaActual" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="RHCargosPersona" Relationship="ModeloPEC.FK_RHCargosPersona_rrhh" FromRole="rrhh" ToRole="RHCargosPersona" />
+  </EntityType>
+  <EntityType Name="RHCargosPersona">
+    <Key>
+      <PropertyRef Name="idRHCargoCod" />
+      <PropertyRef Name="idRHCod" />
+      <PropertyRef Name="dRHCargoFecha" />
+    </Key>
+    <Property Name="idRHCargoCod" Type="Guid" Nullable="false" />
+    <Property Name="idRHCod" Type="Guid" Nullable="false" />
+    <Property Name="dRHCargoFecha" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="dRHCargoFecMod" Type="DateTime" Precision="3" />
+    <Property Name="cUsu" Type="String" MaxLength="6" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="RHcargos" Relationship="ModeloPEC.FK_RHCargosPersona_RHcargos" FromRole="RHCargosPersona" ToRole="RHcargos" />
+    <NavigationProperty Name="rrhh" Relationship="ModeloPEC.FK_RHCargosPersona_rrhh" FromRole="RHCargosPersona" ToRole="rrhh" />
+  </EntityType>
+  <EntityType Name="RolCargo">
+    <Key>
+      <PropertyRef Name="idRol" />
+      <PropertyRef Name="idRHCargoCod" />
+      <PropertyRef Name="dRolCargoFec" />
+    </Key>
+    <Property Name="idRol" Type="Guid" Nullable="false" />
+    <Property Name="idRHCargoCod" Type="Guid" Nullable="false" />
+    <Property Name="dRolCargoFec" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="dRolCargoFecMod" Type="DateTime" Precision="3" />
+    <Property Name="cUsu" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <NavigationProperty Name="RHcargos" Relationship="ModeloPEC.FK_RolCargo_RHcargos" FromRole="RolCargo" ToRole="RHcargos" />
+    <NavigationProperty Name="Roles" Relationship="ModeloPEC.FK_RolCargo_Roles" FromRole="RolCargo" ToRole="Roles" />
+  </EntityType>
+  <Association Name="FK_RHCargosPersona_RHcargos">
+    <End Type="ModeloPEC.RHcargos" Role="RHcargos" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="ModeloPEC.RHCargosPersona" Role="RHCargosPersona" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="RHcargos">
+        <PropertyRef Name="idRHCargoCod" />
+      </Principal>
+      <Dependent Role="RHCargosPersona">
+        <PropertyRef Name="idRHCargoCod" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RolCargo_RHcargos">
+    <End Type="ModeloPEC.RHcargos" Role="RHcargos" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="ModeloPEC.RolCargo" Role="RolCargo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="RHcargos">
+        <PropertyRef Name="idRHCargoCod" />
+      </Principal>
+      <Dependent Role="RolCargo">
+        <PropertyRef Name="idRHCargoCod" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RolCargo_Roles">
+    <End Type="ModeloPEC.Roles" Role="Roles" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="ModeloPEC.RolCargo" Role="RolCargo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Roles">
+        <PropertyRef Name="idRol" />
+      </Principal>
+      <Dependent Role="RolCargo">
+        <PropertyRef Name="idRol" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RHCargosPersona_rrhh">
+    <End Type="ModeloPEC.rrhh" Role="rrhh" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="ModeloPEC.RHCargosPersona" Role="RHCargosPersona" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="rrhh">
+        <PropertyRef Name="idRHCod" />
+      </Principal>
+      <Dependent Role="RHCargosPersona">
+        <PropertyRef Name="idRHCod" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="Producto">
+    <Key>
+      <PropertyRef Name="idProducto" />
+    </Key>
+    <Property Name="idProducto" Type="Guid" Nullable="false" />
+    <Property Name="descProducto" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="dFecIgreso" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="cUser" Type="String" Nullable="false" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Name="bEstado" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="ProductoDetalle" Relationship="ModeloPEC.FK_ProductoDetalle_Producto" FromRole="Producto" ToRole="ProductoDetalle" />
+  </EntityType>
+  <EntityType Name="ProductoDetalle">
+    <Key>
+      <PropertyRef Name="nProductoDet" />
+    </Key>
+    <Property Name="nProductoDet" Type="Int32" Nullable="false" />
+    <Property Name="idProducto" Type="Guid" Nullable="false" />
+    <Property Name="idMov" Type="Guid" />
+    <Property Name="nMovNroSal" Type="Int32" />
+    <Property Name="nMovTrans" Type="Int32" />
+    <Property Name="nMovNroCesion" Type="Int32" />
+    <Property Name="nMovNroBaja" Type="Int32" />
+    <Property Name="cBSCod" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="serie" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="estado" Type="Int32" />
+    <Property Name="vigente" Type="Boolean" />
+    <Property Name="nAlmCod" Type="Int32" />
+    <Property Name="cAreaCod" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="cAgeCod" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="cPersCod" Type="Int32" />
+    <Property Name="cPersNombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="idSubAlmacen" Type="Guid" />
+    <NavigationProperty Name="Producto" Relationship="ModeloPEC.FK_ProductoDetalle_Producto" FromRole="ProductoDetalle" ToRole="Producto" />
+    <NavigationProperty Name="SubAlamacen" Relationship="ModeloPEC.FK_ProductoDetalle_SubAlamacen" FromRole="ProductoDetalle" ToRole="SubAlamacen" />
+    <NavigationProperty Name="Mov" Relationship="ModeloPEC.FK_ProductoDetalle_Mov" FromRole="ProductoDetalle" ToRole="Mov" />
+  </EntityType>
+  <EntityType Name="SubAlamacen">
+    <Key>
+      <PropertyRef Name="idSubAlmacen" />
+    </Key>
+    <Property Name="nombre" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="ubicacion" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="cAgeCod" Type="String" Nullable="false" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="idSubAlmacen" Type="Guid" Nullable="false" />
+    <NavigationProperty Name="Agencias" Relationship="ModeloPEC.FK_SubAlamacen_Agencias" FromRole="SubAlamacen" ToRole="Agencias" />
+    <NavigationProperty Name="ProductoDetalle" Relationship="ModeloPEC.FK_ProductoDetalle_SubAlamacen" FromRole="SubAlamacen" ToRole="ProductoDetalle" />
+  </EntityType>
+  <Association Name="FK_SubAlamacen_Agencias">
+    <End Type="ModeloPEC.Agencias" Role="Agencias" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="ModeloPEC.SubAlamacen" Role="SubAlamacen" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Agencias">
+        <PropertyRef Name="cAgeCod" />
+      </Principal>
+      <Dependent Role="SubAlamacen">
+        <PropertyRef Name="cAgeCod" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProductoDetalle_Producto">
+    <End Type="ModeloPEC.Producto" Role="Producto" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="ModeloPEC.ProductoDetalle" Role="ProductoDetalle" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Producto">
+        <PropertyRef Name="idProducto" />
+      </Principal>
+      <Dependent Role="ProductoDetalle">
+        <PropertyRef Name="idProducto" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProductoDetalle_SubAlamacen">
+    <End Type="ModeloPEC.SubAlamacen" Role="SubAlamacen" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="ModeloPEC.ProductoDetalle" Role="ProductoDetalle" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SubAlamacen">
+        <PropertyRef Name="idSubAlmacen" />
+      </Principal>
+      <Dependent Role="ProductoDetalle">
+        <PropertyRef Name="idSubAlmacen" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="LogDevolucion">
+    <Key>
+      <PropertyRef Name="idDevol" />
+    </Key>
+    <Property Name="idDevol" Type="Guid" Nullable="false" />
+    <Property Name="idMov" Type="Guid" />
+    <Property Name="idBS" Type="Guid" />
+    <Property Name="area" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="medida" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="serie" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="situacion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="otro" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="placa" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Mov" Relationship="ModeloPEC.FK_LogDevolucion_Mov" FromRole="LogDevolucion" ToRole="Mov" />
+  </EntityType>
+  <EntityType Name="MovBS">
+    <Key>
+      <PropertyRef Name="idMov" />
+    </Key>
+    <Property Name="idMov" Type="Guid" Nullable="false" />
+    <Property Name="nMovItem" Type="Int32" />
+    <Property Name="idBS" Type="Guid" Nullable="false" />
+    <Property Name="nMovBSOrden" Type="Int32" />
+    <NavigationProperty Name="Mov" Relationship="ModeloPEC.FK_MovBS_Mov" FromRole="MovBS" ToRole="Mov" />
+  </EntityType>
+  <EntityType Name="Mov">
+    <Key>
+      <PropertyRef Name="idMov" />
+    </Key>
+    <Property Name="idMov" Type="Guid" Nullable="false" />
+    <Property Name="nMovNro" Type="Int32" Nullable="false" />
+    <Property Name="nMovEstado" Type="Int32" />
+    <Property Name="nMovFlag" Type="Int32" />
+    <Property Name="cOpeCod" Type="Guid" />
+    <Property Name="cCodUsu" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="cMovDesc" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="dFecMov" Type="DateTime" Precision="0" />
+    <Property Name="thoramov" Type="Time" Precision="7" />
+    <Property Name="cCodAge" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="FechaHora" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="LogDevolucion" Relationship="ModeloPEC.FK_LogDevolucion_Mov" FromRole="Mov" ToRole="LogDevolucion" />
+    <NavigationProperty Name="OpeTpo" Relationship="ModeloPEC.FK_Mov_OpeTpo" FromRole="Mov" ToRole="OpeTpo" />
+    <NavigationProperty Name="MovBS" Relationship="ModeloPEC.FK_MovBS_Mov" FromRole="Mov" ToRole="MovBS" />
+    <NavigationProperty Name="MovCta" Relationship="ModeloPEC.FK_MovCta_Mov" FromRole="Mov" ToRole="MovCta" />
+    <NavigationProperty Name="ProductoDetalle" Relationship="ModeloPEC.FK_ProductoDetalle_Mov" FromRole="Mov" ToRole="ProductoDetalle" />
+  </EntityType>
+  <EntityType Name="MovCta">
+    <Key>
+      <PropertyRef Name="idMov" />
+    </Key>
+    <Property Name="idMov" Type="Guid" Nullable="false" />
+    <Property Name="nMovItem" Type="Int32" Nullable="false" />
+    <Property Name="nMovImporte" Type="Decimal" Precision="18" Scale="10" />
+    <Property Name="cCtaContCod" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Mov" Relationship="ModeloPEC.FK_MovCta_Mov" FromRole="MovCta" ToRole="Mov" />
+  </EntityType>
+  <Association Name="FK_LogDevolucion_Mov">
+    <End Type="ModeloPEC.Mov" Role="Mov" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="ModeloPEC.LogDevolucion" Role="LogDevolucion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Mov">
+        <PropertyRef Name="idMov" />
+      </Principal>
+      <Dependent Role="LogDevolucion">
+        <PropertyRef Name="idMov" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Mov_OpeTpo">
+    <End Type="ModeloPEC.OpeTpo" Role="OpeTpo" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="ModeloPEC.Mov" Role="Mov" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="OpeTpo">
+        <PropertyRef Name="idOpeTpo" />
+      </Principal>
+      <Dependent Role="Mov">
+        <PropertyRef Name="cOpeCod" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MovBS_Mov">
+    <End Type="ModeloPEC.Mov" Role="Mov" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="ModeloPEC.MovBS" Role="MovBS" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Mov">
+        <PropertyRef Name="idMov" />
+      </Principal>
+      <Dependent Role="MovBS">
+        <PropertyRef Name="idMov" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MovCta_Mov">
+    <End Type="ModeloPEC.Mov" Role="Mov" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="ModeloPEC.MovCta" Role="MovCta" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Mov">
+        <PropertyRef Name="idMov" />
+      </Principal>
+      <Dependent Role="MovCta">
+        <PropertyRef Name="idMov" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProductoDetalle_Mov">
+    <End Type="ModeloPEC.Mov" Role="Mov" Multiplicity="0..1" />
+    <End Type="ModeloPEC.ProductoDetalle" Role="ProductoDetalle" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Mov">
+        <PropertyRef Name="idMov" />
+      </Principal>
+      <Dependent Role="ProductoDetalle">
+        <PropertyRef Name="idMov" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="DetalleProceso">
+    <Key>
+      <PropertyRef Name="idDetProceso" />
+    </Key>
+    <Property Name="idDetProceso" Type="Guid" Nullable="false" />
+    <Property Name="IdProceso" Type="Guid" Nullable="false" />
+    <Property Name="NMovCantAtend" Type="Int32" />
+    <Property Name="idBS" Type="Guid" />
+    <Property Name="CBSDescripcion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="NMovObjOrden" Type="Int32" />
+    <Property Name="CObjetoCod" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CCtaContCodD" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CCtaContCod" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="NMovItem" Type="Int32" />
+    <Property Name="NMovImporte" Type="Int32" />
+    <Property Name="NIGV" Type="Int32" />
+    <Property Name="NIGVUnit" Type="Int32" />
+    <Property Name="NMovCant" Type="Int32" />
+    <Property Name="NValor" Type="Int32" />
+    <Property Name="NValorUnit" Type="Int32" />
+    <Property Name="OtroVariable" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="OtroTexto" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Estado" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="EstadoValue" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Proceso" Relationship="ModeloPEC.FK_DetalleProceso_Proceso" FromRole="DetalleProceso" ToRole="Proceso" />
+  </EntityType>
+  <EntityType Name="Proceso">
+    <Key>
+      <PropertyRef Name="idProceso" />
+    </Key>
+    <Property Name="idProceso" Type="Guid" Nullable="false" />
+    <Property Name="cPersCod" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="cPersNombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="cUser" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="cAgeCod" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="cAreaCod" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="subAlmacen" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="idSubAlmacen" Type="Int32" />
+    <Property Name="pnMovEstado" Type="Int32" />
+    <Property Name="nMovEstadoRef" Type="Int32" />
+    <Property Name="nMovFlagRef" Type="Int32" />
+    <Property Name="nMovFlag" Type="Int32" />
+    <Property Name="nMovNro" Type="Int32" />
+    <Property Name="psMovNro" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="nDocTpo" Type="Int32" />
+    <Property Name="cDocNro" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="pcOpeCod" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="comentario" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="idAlmacen" Type="Int32" />
+    <Property Name="movRef" Type="Int32" />
+    <Property Name="otroDescripcion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="otroItem" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="fechaRegistro" Type="DateTime" Precision="3" />
+    <Property Name="accion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="fechaEmision" Type="DateTime" Precision="3" />
+    <Property Name="fechaEntrega" Type="DateTime" Precision="3" />
+    <Property Name="fechaSalida" Type="DateTime" Precision="3" />
+    <Property Name="almacen" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="DetalleProceso" Relationship="ModeloPEC.FK_DetalleProceso_Proceso" FromRole="Proceso" ToRole="DetalleProceso" />
+  </EntityType>
+  <Association Name="FK_DetalleProceso_Proceso">
+    <End Type="ModeloPEC.Proceso" Role="Proceso" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="ModeloPEC.DetalleProceso" Role="DetalleProceso" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Proceso">
+        <PropertyRef Name="idProceso" />
+      </Principal>
+      <Dependent Role="DetalleProceso">
+        <PropertyRef Name="IdProceso" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="Persona">
+    <Key>
+      <PropertyRef Name="idPersona" />
+    </Key>
+    <Property Name="idPersona" Type="Guid" Nullable="false" />
+    <Property Name="cPersCod" Type="Int32" Nullable="false" />
+    <Property Name="cPersNombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="idDocumento" Type="Int32" />
+    <NavigationProperty Name="PersonaDireccion" Relationship="ModeloPEC.FK_PersonaDireccion_Persona" FromRole="Persona" ToRole="PersonaDireccion" />
+  </EntityType>
+  <EntityType Name="PersonaDireccion">
+    <Key>
+      <PropertyRef Name="idPersona" />
+      <PropertyRef Name="dFecIngreso" />
+    </Key>
+    <Property Name="idPersona" Type="Guid" Nullable="false" />
+    <Property Name="cPersDireccion1" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="cPersDireccion2" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="cPersDireccion3" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="cPersDireccion4" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="cPersDireccion5" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="dFecIngreso" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="dFecMod" Type="DateTime" Precision="3" />
+    <Property Name="cUsu" Type="String" MaxLength="6" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Persona" Relationship="ModeloPEC.FK_PersonaDireccion_Persona" FromRole="PersonaDireccion" ToRole="Persona" />
+  </EntityType>
+  <Association Name="FK_PersonaDireccion_Persona">
+    <End Type="ModeloPEC.Persona" Role="Persona" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="ModeloPEC.PersonaDireccion" Role="PersonaDireccion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Persona">
+        <PropertyRef Name="idPersona" />
+      </Principal>
+      <Dependent Role="PersonaDireccion">
+        <PropertyRef Name="idPersona" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="BienesServicios">
+    <Key>
+      <PropertyRef Name="idBS" />
+    </Key>
+    <Property Name="idBS" Type="Guid" Nullable="false" />
+    <Property Name="cBSCod" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="nBSUnidad" Type="Int32" />
+    <Property Name="cBSDescripcion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="bSerie" Type="Boolean" />
+    <Property Name="bVerifica" Type="Boolean" />
+    <Property Name="bContiene" Type="Boolean" />
+    <Property Name="bVigente" Type="Boolean" />
+    <Property Name="bCorrela" Type="Boolean" />
+    <Property Name="nPorDeprecia" Type="Int32" />
+    <Property Name="cUltimaActualizacion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="nBSTipDep" Type="Int32" />
+    <Property Name="nStockMinimo" Type="Int32" />
+    <Property Name="bPromocion" Type="Boolean" />
+    <Property Name="Producto" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TipProducto" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Modelo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Disenio" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Color" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="usuario" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="agencia" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="fecha" Type="DateTime" Precision="0" />
+    <Property Name="hora" Type="Time" Precision="7" />
+    <NavigationProperty Name="BSSaldos" Relationship="ModeloPEC.FK_BSSaldos_BienesServicios" FromRole="BienesServicios" ToRole="BSSaldos" />
+  </EntityType>
+  <EntityType Name="BSSaldos">
+    <Key>
+      <PropertyRef Name="idBS" />
+      <PropertyRef Name="nStock" />
+    </Key>
+    <Property Name="idBS" Type="Guid" Nullable="false" />
+    <Property Name="nStock" Type="Int32" Nullable="false" />
+    <Property Name="nMonto" Type="Int32" />
+    <Property Name="dSaldo" Type="DateTime" Precision="3" />
+    <Property Name="nAlmCod" Type="Int32" />
+    <Property Name="nAlmTpo" Type="Int32" />
+    <NavigationProperty Name="BienesServicios" Relationship="ModeloPEC.FK_BSSaldos_BienesServicios" FromRole="BSSaldos" ToRole="BienesServicios" />
+  </EntityType>
+  <Association Name="FK_BSSaldos_BienesServicios">
+    <End Type="ModeloPEC.BienesServicios" Role="BienesServicios" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="ModeloPEC.BSSaldos" Role="BSSaldos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BienesServicios">
+        <PropertyRef Name="idBS" />
+      </Principal>
+      <Dependent Role="BSSaldos">
+        <PropertyRef Name="idBS" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="BSSerie">
+    <Key>
+      <PropertyRef Name="idBSCod" />
+    </Key>
+    <Property Name="idBSCod" Type="Guid" Nullable="false" />
+    <Property Name="idSerie" Type="Guid" Nullable="false" />
+    <Property Name="nBienEstado" Type="Int32" />
+    <Property Name="nIGV" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="nValor" Type="Decimal" Precision="19" Scale="4" />
+    <NavigationProperty Name="MovBSSerie" Relationship="ModeloPEC.FK_BSSerie_MovBSSerie" FromRole="BSSerie" ToRole="MovBSSerie" />
+  </EntityType>
+  <EntityType Name="CodigoBarra">
+    <Key>
+      <PropertyRef Name="IdCodigoBarra" />
+    </Key>
+    <Property Name="nMovNro" Type="Int32" />
+    <Property Name="IdCodigoBarra" Type="Int32" Nullable="false" />
+    <Property Name="EsSalida" Type="Boolean" />
+    <Property Name="Fecha" Type="DateTime" Precision="3" />
+    <Property Name="FechaDetalle" Type="DateTime" Precision="3" />
+    <Property Name="Observacion" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="ConstSistema">
+    <Key>
+      <PropertyRef Name="idConsSis" />
+    </Key>
+    <Property Name="idConsSis" Type="Guid" Nullable="false" />
+    <Property Name="nConsSisCod" Type="Int32" Nullable="false" />
+    <Property Name="nConsSisValor" Type="Int32" Nullable="false" />
+    <Property Name="dFecIngreso" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="cUser" Type="String" Nullable="false" MaxLength="6" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="CtaBS">
+    <Key>
+      <PropertyRef Name="idBSCta" />
+    </Key>
+    <Property Name="idBSCta" Type="Guid" Nullable="false" />
+    <Property Name="cCtaContCod" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="nCtaObjOrden" Type="Int32" />
+    <Property Name="cObjetoCod" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="cOpeCod" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="nCtaObjNiv" Type="Int32" />
+    <Property Name="cCtaObjFiltro" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="cCtaObjImpre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="cCtaObjOpc" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="MovBSSerie">
+    <Key>
+      <PropertyRef Name="idSerie" />
+    </Key>
+    <Property Name="idSerie" Type="Guid" Nullable="false" />
+    <Property Name="idMov" Type="Guid" />
+    <Property Name="nMovItem" Type="Int32" />
+    <Property Name="cBSCod" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="cSerie" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="nIgv" Type="Int32" />
+    <Property Name="nValor" Type="Decimal" Precision="18" Scale="10" />
+    <NavigationProperty Name="BSSerie" Relationship="ModeloPEC.FK_BSSerie_MovBSSerie" FromRole="MovBSSerie" ToRole="BSSerie" />
+  </EntityType>
+  <Association Name="FK_BSSerie_MovBSSerie">
+    <End Type="ModeloPEC.MovBSSerie" Role="MovBSSerie" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="ModeloPEC.BSSerie" Role="BSSerie" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MovBSSerie">
+        <PropertyRef Name="idSerie" />
+      </Principal>
+      <Dependent Role="BSSerie">
+        <PropertyRef Name="idSerie" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

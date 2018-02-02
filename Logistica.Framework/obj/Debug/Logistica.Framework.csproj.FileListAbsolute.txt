@@ -1,0 +1,42 @@
+C:\Disco D\PEC\Med.PEC.Framework\bin\Debug\Logistica.Framework.dll
+C:\Disco D\PEC\Med.PEC.Framework\bin\Debug\Logistica.Framework.pdb
+C:\Disco D\PEC\Med.PEC.Framework\bin\Debug\AutoMapper.dll
+C:\Disco D\PEC\Med.PEC.Framework\bin\Debug\EntityFramework.Extended.dll
+C:\Disco D\PEC\Med.PEC.Framework\bin\Debug\Logistica.Entidades.dll
+C:\Disco D\PEC\Med.PEC.Framework\bin\Debug\Med.Comun.Core.dll
+C:\Disco D\PEC\Med.PEC.Framework\bin\Debug\Logistica.Entidades.pdb
+C:\Disco D\PEC\Med.PEC.Framework\bin\Debug\AutoMapper.xml
+C:\Disco D\PEC\Med.PEC.Framework\bin\Debug\EntityFramework.Extended.xml
+C:\Disco D\PEC\Med.PEC.Framework\bin\Debug\EntityFramework.Extended.dll.config
+C:\Disco D\PEC\Med.PEC.Framework\obj\Debug\Logistica.Framework.csprojResolveAssemblyReference.cache
+C:\Disco D\PEC\Med.PEC.Framework\obj\Debug\Logistica.Framework.csproj.CoreCompileInputs.cache
+C:\Disco D\PEC\Med.PEC.Framework\obj\Debug\Logistica.Framework.dll
+C:\Disco D\PEC\Med.PEC.Framework\obj\Debug\Logistica.Framework.pdb
+C:\Disco D\PEC\Logistica.Framework\bin\Debug\Logistica.Framework.dll
+C:\Disco D\PEC\Logistica.Framework\bin\Debug\Logistica.Framework.pdb
+C:\Disco D\PEC\Logistica.Framework\bin\Debug\AutoMapper.dll
+C:\Disco D\PEC\Logistica.Framework\bin\Debug\EntityFramework.Extended.dll
+C:\Disco D\PEC\Logistica.Framework\bin\Debug\Logistica.Entidades.dll
+C:\Disco D\PEC\Logistica.Framework\bin\Debug\Med.Comun.Core.dll
+C:\Disco D\PEC\Logistica.Framework\bin\Debug\Logistica.Entidades.pdb
+C:\Disco D\PEC\Logistica.Framework\bin\Debug\AutoMapper.xml
+C:\Disco D\PEC\Logistica.Framework\bin\Debug\EntityFramework.Extended.xml
+C:\Disco D\PEC\Logistica.Framework\bin\Debug\EntityFramework.Extended.dll.config
+C:\Disco D\PEC\Logistica.Framework\obj\Debug\Logistica.Framework.csprojResolveAssemblyReference.cache
+C:\Disco D\PEC\Logistica.Framework\obj\Debug\Logistica.Framework.csproj.CoreCompileInputs.cache
+C:\Disco D\PEC\Logistica.Framework\obj\Debug\Logistica.Framework.dll
+C:\Disco D\PEC\Logistica.Framework\obj\Debug\Logistica.Framework.pdb
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Framework\bin\Debug\Logistica.Framework.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Framework\bin\Debug\Logistica.Framework.pdb
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Framework\bin\Debug\AutoMapper.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Framework\bin\Debug\EntityFramework.Extended.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Framework\bin\Debug\Logistica.Entidades.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Framework\bin\Debug\Med.Comun.Core.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Framework\bin\Debug\Logistica.Entidades.pdb
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Framework\bin\Debug\AutoMapper.xml
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Framework\bin\Debug\EntityFramework.Extended.xml
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Framework\bin\Debug\EntityFramework.Extended.dll.config
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Framework\obj\Debug\Logistica.Framework.csprojResolveAssemblyReference.cache
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Framework\obj\Debug\Logistica.Framework.csproj.CoreCompileInputs.cache
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Framework\obj\Debug\Logistica.Framework.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Framework\obj\Debug\Logistica.Framework.pdb

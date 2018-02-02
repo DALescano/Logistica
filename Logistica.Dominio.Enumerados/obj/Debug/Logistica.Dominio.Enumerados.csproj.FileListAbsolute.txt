@@ -1,0 +1,15 @@
+C:\Disco D\PEC\Med.PEC.Dominio.Enumerados\bin\Debug\Logistica.Dominio.Enumerados.dll
+C:\Disco D\PEC\Med.PEC.Dominio.Enumerados\bin\Debug\Logistica.Dominio.Enumerados.pdb
+C:\Disco D\PEC\Med.PEC.Dominio.Enumerados\obj\Debug\Logistica.Dominio.Enumerados.csproj.CoreCompileInputs.cache
+C:\Disco D\PEC\Med.PEC.Dominio.Enumerados\obj\Debug\Logistica.Dominio.Enumerados.dll
+C:\Disco D\PEC\Med.PEC.Dominio.Enumerados\obj\Debug\Logistica.Dominio.Enumerados.pdb
+C:\Disco D\PEC\Logistica.Dominio.Enumerados\bin\Debug\Logistica.Dominio.Enumerados.dll
+C:\Disco D\PEC\Logistica.Dominio.Enumerados\bin\Debug\Logistica.Dominio.Enumerados.pdb
+C:\Disco D\PEC\Logistica.Dominio.Enumerados\obj\Debug\Logistica.Dominio.Enumerados.csproj.CoreCompileInputs.cache
+C:\Disco D\PEC\Logistica.Dominio.Enumerados\obj\Debug\Logistica.Dominio.Enumerados.dll
+C:\Disco D\PEC\Logistica.Dominio.Enumerados\obj\Debug\Logistica.Dominio.Enumerados.pdb
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Dominio.Enumerados\bin\Debug\Logistica.Dominio.Enumerados.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Dominio.Enumerados\bin\Debug\Logistica.Dominio.Enumerados.pdb
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Dominio.Enumerados\obj\Debug\Logistica.Dominio.Enumerados.csproj.CoreCompileInputs.cache
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Dominio.Enumerados\obj\Debug\Logistica.Dominio.Enumerados.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Dominio.Enumerados\obj\Debug\Logistica.Dominio.Enumerados.pdb

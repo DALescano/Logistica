@@ -1,0 +1,5 @@
+C:\Disco D\PEC\Med.PEC.Dominio.Enumerados\bin\Debug\Med.PEC.Dominio.Enumerados.dll
+C:\Disco D\PEC\Med.PEC.Dominio.Enumerados\bin\Debug\Med.PEC.Dominio.Enumerados.pdb
+C:\Disco D\PEC\Med.PEC.Dominio.Enumerados\obj\Debug\Med.PEC.Dominio.Enumerados.csproj.CoreCompileInputs.cache
+C:\Disco D\PEC\Med.PEC.Dominio.Enumerados\obj\Debug\Med.PEC.Dominio.Enumerados.dll
+C:\Disco D\PEC\Med.PEC.Dominio.Enumerados\obj\Debug\Med.PEC.Dominio.Enumerados.pdb

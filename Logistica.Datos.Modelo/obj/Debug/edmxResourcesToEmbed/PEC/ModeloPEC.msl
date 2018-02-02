@@ -1,0 +1,438 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="db_PECModelStoreContainer" CdmEntityContainer="PECDbContext">
+    <EntitySetMapping Name="Agencias">
+      <EntityTypeMapping TypeName="ModeloPEC.Agencias">
+        <MappingFragment StoreEntitySet="Agencias">
+          <ScalarProperty Name="cAgeDescripcion" ColumnName="cAgeDescripcion" />
+          <ScalarProperty Name="cAgeCod" ColumnName="cAgeCod" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Areas">
+      <EntityTypeMapping TypeName="ModeloPEC.Areas">
+        <MappingFragment StoreEntitySet="Areas">
+          <ScalarProperty Name="cAreaDescripcion" ColumnName="cAreaDescripcion" />
+          <ScalarProperty Name="cAreaCod" ColumnName="cAreaCod" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Categoria">
+      <EntityTypeMapping TypeName="ModeloPEC.Categoria">
+        <MappingFragment StoreEntitySet="Categoria">
+          <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+          <ScalarProperty Name="Filtro" ColumnName="Filtro" />
+          <ScalarProperty Name="esPrincipal" ColumnName="esPrincipal" />
+          <ScalarProperty Name="IdCategoriaSuperior" ColumnName="IdCategoriaSuperior" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="idCategoria" ColumnName="idCategoria" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Constante">
+      <EntityTypeMapping TypeName="ModeloPEC.Constante">
+        <MappingFragment StoreEntitySet="Constante">
+          <ScalarProperty Name="cConsDescripcion" ColumnName="cConsDescripcion" />
+          <ScalarProperty Name="nConsCod" ColumnName="nConsCod" />
+          <ScalarProperty Name="nConsValor" ColumnName="nConsValor" />
+          <ScalarProperty Name="idCons" ColumnName="idCons" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OpeTpo">
+      <EntityTypeMapping TypeName="ModeloPEC.OpeTpo">
+        <MappingFragment StoreEntitySet="OpeTpo">
+          <ScalarProperty Name="cOpeVisible" ColumnName="cOpeVisible" />
+          <ScalarProperty Name="cOpeDesc" ColumnName="cOpeDesc" />
+          <ScalarProperty Name="idOpeTpo" ColumnName="idOpeTpo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Menu">
+      <EntityTypeMapping TypeName="ModeloPEC.Menu">
+        <MappingFragment StoreEntitySet="Menu">
+          <ScalarProperty Name="cUsu" ColumnName="cUsu" />
+          <ScalarProperty Name="dFecMod" ColumnName="dFecMod" />
+          <ScalarProperty Name="dFecIngreso" ColumnName="dFecIngreso" />
+          <ScalarProperty Name="bEstado" ColumnName="bEstado" />
+          <ScalarProperty Name="cMenu" ColumnName="cMenu" />
+          <ScalarProperty Name="idMenu" ColumnName="idMenu" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MenuOpciones">
+      <EntityTypeMapping TypeName="ModeloPEC.MenuOpciones">
+        <MappingFragment StoreEntitySet="MenuOpciones">
+          <ScalarProperty Name="idMenuOpcion" ColumnName="idMenuOpcion" />
+          <ScalarProperty Name="idOpcion" ColumnName="idOpcion" />
+          <ScalarProperty Name="idMenu" ColumnName="idMenu" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MenuOpcionRol">
+      <EntityTypeMapping TypeName="ModeloPEC.MenuOpcionRol">
+        <MappingFragment StoreEntitySet="MenuOpcionRol">
+          <ScalarProperty Name="cUsu" ColumnName="cUsu" />
+          <ScalarProperty Name="dFecMod" ColumnName="dFecMod" />
+          <ScalarProperty Name="dFecIngreso" ColumnName="dFecIngreso" />
+          <ScalarProperty Name="bEstado" ColumnName="bEstado" />
+          <ScalarProperty Name="idMenuOpcion" ColumnName="idMenuOpcion" />
+          <ScalarProperty Name="idRol" ColumnName="idRol" />
+          <ScalarProperty Name="idMenuOpcionRol" ColumnName="idMenuOpcionRol" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Opciones">
+      <EntityTypeMapping TypeName="ModeloPEC.Opciones">
+        <MappingFragment StoreEntitySet="Opciones">
+          <ScalarProperty Name="cUsu" ColumnName="cUsu" />
+          <ScalarProperty Name="dFecMod" ColumnName="dFecMod" />
+          <ScalarProperty Name="dFecIngreso" ColumnName="dFecIngreso" />
+          <ScalarProperty Name="bEstado" ColumnName="bEstado" />
+          <ScalarProperty Name="cOpcion" ColumnName="cOpcion" />
+          <ScalarProperty Name="idOpcion" ColumnName="idOpcion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Roles">
+      <EntityTypeMapping TypeName="ModeloPEC.Roles">
+        <MappingFragment StoreEntitySet="Roles">
+          <ScalarProperty Name="cUsu" ColumnName="cUsu" />
+          <ScalarProperty Name="dFecMod" ColumnName="dFecMod" />
+          <ScalarProperty Name="dFecIngreso" ColumnName="dFecIngreso" />
+          <ScalarProperty Name="bEstado" ColumnName="bEstado" />
+          <ScalarProperty Name="idRol" ColumnName="idRol" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RHcargos">
+      <EntityTypeMapping TypeName="ModeloPEC.RHcargos">
+        <MappingFragment StoreEntitySet="RHcargos">
+          <ScalarProperty Name="bEstado" ColumnName="bEstado" />
+          <ScalarProperty Name="idRHCargoCod" ColumnName="idRHCargoCod" />
+          <ScalarProperty Name="dRHCargoFecha" ColumnName="dRHCargoFecha" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="rrhh">
+      <EntityTypeMapping TypeName="ModeloPEC.rrhh">
+        <MappingFragment StoreEntitySet="rrhh">
+          <ScalarProperty Name="cAgenciaActual" ColumnName="cAgenciaActual" />
+          <ScalarProperty Name="cAreaCodActual" ColumnName="cAreaCodActual" />
+          <ScalarProperty Name="cAreaCod" ColumnName="cAreaCod" />
+          <ScalarProperty Name="cUser" ColumnName="cUser" />
+          <ScalarProperty Name="cClave" ColumnName="cClave" />
+          <ScalarProperty Name="nRHEstado" ColumnName="nRHEstado" />
+          <ScalarProperty Name="cPersCod" ColumnName="cPersCod" />
+          <ScalarProperty Name="idRHCod" ColumnName="idRHCod" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RHCargosPersona">
+      <EntityTypeMapping TypeName="ModeloPEC.RHCargosPersona">
+        <MappingFragment StoreEntitySet="RHCargosPersona">
+          <ScalarProperty Name="cUsu" ColumnName="cUsu" />
+          <ScalarProperty Name="dRHCargoFecMod" ColumnName="dRHCargoFecMod" />
+          <ScalarProperty Name="dRHCargoFecha" ColumnName="dRHCargoFecha" />
+          <ScalarProperty Name="idRHCod" ColumnName="idRHCod" />
+          <ScalarProperty Name="idRHCargoCod" ColumnName="idRHCargoCod" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RolCargo">
+      <EntityTypeMapping TypeName="ModeloPEC.RolCargo">
+        <MappingFragment StoreEntitySet="RolCargo">
+          <ScalarProperty Name="cUsu" ColumnName="cUsu" />
+          <ScalarProperty Name="dRolCargoFecMod" ColumnName="dRolCargoFecMod" />
+          <ScalarProperty Name="dRolCargoFec" ColumnName="dRolCargoFec" />
+          <ScalarProperty Name="idRHCargoCod" ColumnName="idRHCargoCod" />
+          <ScalarProperty Name="idRol" ColumnName="idRol" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Producto">
+      <EntityTypeMapping TypeName="ModeloPEC.Producto">
+        <MappingFragment StoreEntitySet="Producto">
+          <ScalarProperty Name="bEstado" ColumnName="bEstado" />
+          <ScalarProperty Name="cUser" ColumnName="cUser" />
+          <ScalarProperty Name="dFecIgreso" ColumnName="dFecIgreso" />
+          <ScalarProperty Name="descProducto" ColumnName="descProducto" />
+          <ScalarProperty Name="idProducto" ColumnName="idProducto" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProductoDetalle">
+      <EntityTypeMapping TypeName="ModeloPEC.ProductoDetalle">
+        <MappingFragment StoreEntitySet="ProductoDetalle">
+          <ScalarProperty Name="idSubAlmacen" ColumnName="idSubAlmacen" />
+          <ScalarProperty Name="cPersNombre" ColumnName="cPersNombre" />
+          <ScalarProperty Name="cPersCod" ColumnName="cPersCod" />
+          <ScalarProperty Name="cAgeCod" ColumnName="cAgeCod" />
+          <ScalarProperty Name="cAreaCod" ColumnName="cAreaCod" />
+          <ScalarProperty Name="nAlmCod" ColumnName="nAlmCod" />
+          <ScalarProperty Name="vigente" ColumnName="vigente" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
+          <ScalarProperty Name="serie" ColumnName="serie" />
+          <ScalarProperty Name="cBSCod" ColumnName="cBSCod" />
+          <ScalarProperty Name="nMovNroBaja" ColumnName="nMovNroBaja" />
+          <ScalarProperty Name="nMovNroCesion" ColumnName="nMovNroCesion" />
+          <ScalarProperty Name="nMovTrans" ColumnName="nMovTrans" />
+          <ScalarProperty Name="nMovNroSal" ColumnName="nMovNroSal" />
+          <ScalarProperty Name="idMov" ColumnName="idMov" />
+          <ScalarProperty Name="idProducto" ColumnName="idProducto" />
+          <ScalarProperty Name="nProductoDet" ColumnName="nProductoDet" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SubAlamacen">
+      <EntityTypeMapping TypeName="ModeloPEC.SubAlamacen">
+        <MappingFragment StoreEntitySet="SubAlamacen">
+          <ScalarProperty Name="idSubAlmacen" ColumnName="idSubAlmacen" />
+          <ScalarProperty Name="cAgeCod" ColumnName="cAgeCod" />
+          <ScalarProperty Name="ubicacion" ColumnName="ubicacion" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LogDevolucion">
+      <EntityTypeMapping TypeName="ModeloPEC.LogDevolucion">
+        <MappingFragment StoreEntitySet="LogDevolucion">
+          <ScalarProperty Name="placa" ColumnName="placa" />
+          <ScalarProperty Name="otro" ColumnName="otro" />
+          <ScalarProperty Name="situacion" ColumnName="situacion" />
+          <ScalarProperty Name="serie" ColumnName="serie" />
+          <ScalarProperty Name="medida" ColumnName="medida" />
+          <ScalarProperty Name="area" ColumnName="area" />
+          <ScalarProperty Name="idBS" ColumnName="idBS" />
+          <ScalarProperty Name="idMov" ColumnName="idMov" />
+          <ScalarProperty Name="idDevol" ColumnName="idDevol" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MovBS">
+      <EntityTypeMapping TypeName="ModeloPEC.MovBS">
+        <MappingFragment StoreEntitySet="MovBS">
+          <ScalarProperty Name="nMovBSOrden" ColumnName="nMovBSOrden" />
+          <ScalarProperty Name="idBS" ColumnName="idBS" />
+          <ScalarProperty Name="nMovItem" ColumnName="nMovItem" />
+          <ScalarProperty Name="idMov" ColumnName="idMov" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Mov">
+      <EntityTypeMapping TypeName="ModeloPEC.Mov">
+        <MappingFragment StoreEntitySet="Mov">
+          <ScalarProperty Name="FechaHora" ColumnName="FechaHora" />
+          <ScalarProperty Name="cCodAge" ColumnName="cCodAge" />
+          <ScalarProperty Name="thoramov" ColumnName="thoramov" />
+          <ScalarProperty Name="dFecMov" ColumnName="dFecMov" />
+          <ScalarProperty Name="cMovDesc" ColumnName="cMovDesc" />
+          <ScalarProperty Name="cCodUsu" ColumnName="cCodUsu" />
+          <ScalarProperty Name="cOpeCod" ColumnName="cOpeCod" />
+          <ScalarProperty Name="nMovFlag" ColumnName="nMovFlag" />
+          <ScalarProperty Name="nMovEstado" ColumnName="nMovEstado" />
+          <ScalarProperty Name="nMovNro" ColumnName="nMovNro" />
+          <ScalarProperty Name="idMov" ColumnName="idMov" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MovCta">
+      <EntityTypeMapping TypeName="ModeloPEC.MovCta">
+        <MappingFragment StoreEntitySet="MovCta">
+          <ScalarProperty Name="cCtaContCod" ColumnName="cCtaContCod" />
+          <ScalarProperty Name="nMovImporte" ColumnName="nMovImporte" />
+          <ScalarProperty Name="nMovItem" ColumnName="nMovItem" />
+          <ScalarProperty Name="idMov" ColumnName="idMov" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DetalleProceso">
+      <EntityTypeMapping TypeName="ModeloPEC.DetalleProceso">
+        <MappingFragment StoreEntitySet="DetalleProceso">
+          <ScalarProperty Name="EstadoValue" ColumnName="EstadoValue" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="OtroTexto" ColumnName="OtroTexto" />
+          <ScalarProperty Name="OtroVariable" ColumnName="OtroVariable" />
+          <ScalarProperty Name="NValorUnit" ColumnName="NValorUnit" />
+          <ScalarProperty Name="NValor" ColumnName="NValor" />
+          <ScalarProperty Name="NMovCant" ColumnName="NMovCant" />
+          <ScalarProperty Name="NIGVUnit" ColumnName="NIGVUnit" />
+          <ScalarProperty Name="NIGV" ColumnName="NIGV" />
+          <ScalarProperty Name="NMovImporte" ColumnName="NMovImporte" />
+          <ScalarProperty Name="NMovItem" ColumnName="NMovItem" />
+          <ScalarProperty Name="CCtaContCod" ColumnName="CCtaContCod" />
+          <ScalarProperty Name="CCtaContCodD" ColumnName="CCtaContCodD" />
+          <ScalarProperty Name="CObjetoCod" ColumnName="CObjetoCod" />
+          <ScalarProperty Name="NMovObjOrden" ColumnName="NMovObjOrden" />
+          <ScalarProperty Name="CBSDescripcion" ColumnName="CBSDescripcion" />
+          <ScalarProperty Name="idBS" ColumnName="idBS" />
+          <ScalarProperty Name="NMovCantAtend" ColumnName="NMovCantAtend" />
+          <ScalarProperty Name="IdProceso" ColumnName="IdProceso" />
+          <ScalarProperty Name="idDetProceso" ColumnName="idDetProceso" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Proceso">
+      <EntityTypeMapping TypeName="ModeloPEC.Proceso">
+        <MappingFragment StoreEntitySet="Proceso">
+          <ScalarProperty Name="almacen" ColumnName="almacen" />
+          <ScalarProperty Name="fechaSalida" ColumnName="fechaSalida" />
+          <ScalarProperty Name="fechaEntrega" ColumnName="fechaEntrega" />
+          <ScalarProperty Name="fechaEmision" ColumnName="fechaEmision" />
+          <ScalarProperty Name="accion" ColumnName="accion" />
+          <ScalarProperty Name="fechaRegistro" ColumnName="fechaRegistro" />
+          <ScalarProperty Name="otroItem" ColumnName="otroItem" />
+          <ScalarProperty Name="otroDescripcion" ColumnName="otroDescripcion" />
+          <ScalarProperty Name="movRef" ColumnName="movRef" />
+          <ScalarProperty Name="idAlmacen" ColumnName="idAlmacen" />
+          <ScalarProperty Name="comentario" ColumnName="comentario" />
+          <ScalarProperty Name="pcOpeCod" ColumnName="pcOpeCod" />
+          <ScalarProperty Name="cDocNro" ColumnName="cDocNro" />
+          <ScalarProperty Name="nDocTpo" ColumnName="nDocTpo" />
+          <ScalarProperty Name="psMovNro" ColumnName="psMovNro" />
+          <ScalarProperty Name="nMovNro" ColumnName="nMovNro" />
+          <ScalarProperty Name="nMovFlag" ColumnName="nMovFlag" />
+          <ScalarProperty Name="nMovFlagRef" ColumnName="nMovFlagRef" />
+          <ScalarProperty Name="nMovEstadoRef" ColumnName="nMovEstadoRef" />
+          <ScalarProperty Name="pnMovEstado" ColumnName="pnMovEstado" />
+          <ScalarProperty Name="idSubAlmacen" ColumnName="idSubAlmacen" />
+          <ScalarProperty Name="subAlmacen" ColumnName="subAlmacen" />
+          <ScalarProperty Name="cAreaCod" ColumnName="cAreaCod" />
+          <ScalarProperty Name="cAgeCod" ColumnName="cAgeCod" />
+          <ScalarProperty Name="cUser" ColumnName="cUser" />
+          <ScalarProperty Name="cPersNombre" ColumnName="cPersNombre" />
+          <ScalarProperty Name="cPersCod" ColumnName="cPersCod" />
+          <ScalarProperty Name="idProceso" ColumnName="idProceso" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Persona">
+      <EntityTypeMapping TypeName="ModeloPEC.Persona">
+        <MappingFragment StoreEntitySet="Persona">
+          <ScalarProperty Name="idDocumento" ColumnName="idDocumento" />
+          <ScalarProperty Name="cPersNombre" ColumnName="cPersNombre" />
+          <ScalarProperty Name="cPersCod" ColumnName="cPersCod" />
+          <ScalarProperty Name="idPersona" ColumnName="idPersona" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PersonaDireccion">
+      <EntityTypeMapping TypeName="ModeloPEC.PersonaDireccion">
+        <MappingFragment StoreEntitySet="PersonaDireccion">
+          <ScalarProperty Name="cUsu" ColumnName="cUsu" />
+          <ScalarProperty Name="dFecMod" ColumnName="dFecMod" />
+          <ScalarProperty Name="dFecIngreso" ColumnName="dFecIngreso" />
+          <ScalarProperty Name="cPersDireccion5" ColumnName="cPersDireccion5" />
+          <ScalarProperty Name="cPersDireccion4" ColumnName="cPersDireccion4" />
+          <ScalarProperty Name="cPersDireccion3" ColumnName="cPersDireccion3" />
+          <ScalarProperty Name="cPersDireccion2" ColumnName="cPersDireccion2" />
+          <ScalarProperty Name="cPersDireccion1" ColumnName="cPersDireccion1" />
+          <ScalarProperty Name="idPersona" ColumnName="idPersona" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BienesServicios">
+      <EntityTypeMapping TypeName="ModeloPEC.BienesServicios">
+        <MappingFragment StoreEntitySet="BienesServicios">
+          <ScalarProperty Name="hora" ColumnName="hora" />
+          <ScalarProperty Name="fecha" ColumnName="fecha" />
+          <ScalarProperty Name="agencia" ColumnName="agencia" />
+          <ScalarProperty Name="usuario" ColumnName="usuario" />
+          <ScalarProperty Name="Color" ColumnName="Color" />
+          <ScalarProperty Name="Disenio" ColumnName="Disenio" />
+          <ScalarProperty Name="Modelo" ColumnName="Modelo" />
+          <ScalarProperty Name="TipProducto" ColumnName="TipProducto" />
+          <ScalarProperty Name="Producto" ColumnName="Producto" />
+          <ScalarProperty Name="bPromocion" ColumnName="bPromocion" />
+          <ScalarProperty Name="nStockMinimo" ColumnName="nStockMinimo" />
+          <ScalarProperty Name="nBSTipDep" ColumnName="nBSTipDep" />
+          <ScalarProperty Name="cUltimaActualizacion" ColumnName="cUltimaActualizacion" />
+          <ScalarProperty Name="nPorDeprecia" ColumnName="nPorDeprecia" />
+          <ScalarProperty Name="bCorrela" ColumnName="bCorrela" />
+          <ScalarProperty Name="bVigente" ColumnName="bVigente" />
+          <ScalarProperty Name="bContiene" ColumnName="bContiene" />
+          <ScalarProperty Name="bVerifica" ColumnName="bVerifica" />
+          <ScalarProperty Name="bSerie" ColumnName="bSerie" />
+          <ScalarProperty Name="cBSDescripcion" ColumnName="cBSDescripcion" />
+          <ScalarProperty Name="nBSUnidad" ColumnName="nBSUnidad" />
+          <ScalarProperty Name="cBSCod" ColumnName="cBSCod" />
+          <ScalarProperty Name="idBS" ColumnName="idBS" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BSSaldos">
+      <EntityTypeMapping TypeName="ModeloPEC.BSSaldos">
+        <MappingFragment StoreEntitySet="BSSaldos">
+          <ScalarProperty Name="nAlmTpo" ColumnName="nAlmTpo" />
+          <ScalarProperty Name="nAlmCod" ColumnName="nAlmCod" />
+          <ScalarProperty Name="dSaldo" ColumnName="dSaldo" />
+          <ScalarProperty Name="nMonto" ColumnName="nMonto" />
+          <ScalarProperty Name="nStock" ColumnName="nStock" />
+          <ScalarProperty Name="idBS" ColumnName="idBS" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BSSerie">
+      <EntityTypeMapping TypeName="ModeloPEC.BSSerie">
+        <MappingFragment StoreEntitySet="BSSerie">
+          <ScalarProperty Name="nValor" ColumnName="nValor" />
+          <ScalarProperty Name="nIGV" ColumnName="nIGV" />
+          <ScalarProperty Name="nBienEstado" ColumnName="nBienEstado" />
+          <ScalarProperty Name="idSerie" ColumnName="idSerie" />
+          <ScalarProperty Name="idBSCod" ColumnName="idBSCod" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CodigoBarra">
+      <EntityTypeMapping TypeName="ModeloPEC.CodigoBarra">
+        <MappingFragment StoreEntitySet="CodigoBarra">
+          <ScalarProperty Name="Observacion" ColumnName="Observacion" />
+          <ScalarProperty Name="FechaDetalle" ColumnName="FechaDetalle" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="EsSalida" ColumnName="EsSalida" />
+          <ScalarProperty Name="IdCodigoBarra" ColumnName="IdCodigoBarra" />
+          <ScalarProperty Name="nMovNro" ColumnName="nMovNro" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ConstSistema">
+      <EntityTypeMapping TypeName="ModeloPEC.ConstSistema">
+        <MappingFragment StoreEntitySet="ConstSistema">
+          <ScalarProperty Name="cUser" ColumnName="cUser" />
+          <ScalarProperty Name="dFecIngreso" ColumnName="dFecIngreso" />
+          <ScalarProperty Name="nConsSisValor" ColumnName="nConsSisValor" />
+          <ScalarProperty Name="nConsSisCod" ColumnName="nConsSisCod" />
+          <ScalarProperty Name="idConsSis" ColumnName="idConsSis" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CtaBS">
+      <EntityTypeMapping TypeName="ModeloPEC.CtaBS">
+        <MappingFragment StoreEntitySet="CtaBS">
+          <ScalarProperty Name="cCtaObjOpc" ColumnName="cCtaObjOpc" />
+          <ScalarProperty Name="cCtaObjImpre" ColumnName="cCtaObjImpre" />
+          <ScalarProperty Name="cCtaObjFiltro" ColumnName="cCtaObjFiltro" />
+          <ScalarProperty Name="nCtaObjNiv" ColumnName="nCtaObjNiv" />
+          <ScalarProperty Name="cOpeCod" ColumnName="cOpeCod" />
+          <ScalarProperty Name="cObjetoCod" ColumnName="cObjetoCod" />
+          <ScalarProperty Name="nCtaObjOrden" ColumnName="nCtaObjOrden" />
+          <ScalarProperty Name="cCtaContCod" ColumnName="cCtaContCod" />
+          <ScalarProperty Name="idBSCta" ColumnName="idBSCta" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MovBSSerie">
+      <EntityTypeMapping TypeName="ModeloPEC.MovBSSerie">
+        <MappingFragment StoreEntitySet="MovBSSerie">
+          <ScalarProperty Name="nValor" ColumnName="nValor" />
+          <ScalarProperty Name="nIgv" ColumnName="nIgv" />
+          <ScalarProperty Name="cSerie" ColumnName="cSerie" />
+          <ScalarProperty Name="cBSCod" ColumnName="cBSCod" />
+          <ScalarProperty Name="nMovItem" ColumnName="nMovItem" />
+          <ScalarProperty Name="idMov" ColumnName="idMov" />
+          <ScalarProperty Name="idSerie" ColumnName="idSerie" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

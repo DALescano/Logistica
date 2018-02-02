@@ -1,0 +1,45 @@
+C:\Disco D\PEC\Med.PEC.Aplicacion.Interfaces\bin\Debug\Logistica.Aplicacion.Interfaces.dll
+C:\Disco D\PEC\Med.PEC.Aplicacion.Interfaces\bin\Debug\Logistica.Aplicacion.Interfaces.pdb
+C:\Disco D\PEC\Med.PEC.Aplicacion.Interfaces\bin\Debug\Logistica.Dominio.Entidades.dll
+C:\Disco D\PEC\Med.PEC.Aplicacion.Interfaces\bin\Debug\Logistica.Entidades.dll
+C:\Disco D\PEC\Med.PEC.Aplicacion.Interfaces\bin\Debug\Logistica.Framework.dll
+C:\Disco D\PEC\Med.PEC.Aplicacion.Interfaces\bin\Debug\Med.Comun.Core.dll
+C:\Disco D\PEC\Med.PEC.Aplicacion.Interfaces\bin\Debug\AutoMapper.dll
+C:\Disco D\PEC\Med.PEC.Aplicacion.Interfaces\bin\Debug\Logistica.Dominio.Entidades.pdb
+C:\Disco D\PEC\Med.PEC.Aplicacion.Interfaces\bin\Debug\Logistica.Entidades.pdb
+C:\Disco D\PEC\Med.PEC.Aplicacion.Interfaces\bin\Debug\Logistica.Framework.pdb
+C:\Disco D\PEC\Med.PEC.Aplicacion.Interfaces\bin\Debug\AutoMapper.xml
+C:\Disco D\PEC\Med.PEC.Aplicacion.Interfaces\obj\Debug\Logistica.Aplicacion.Interfaces.csprojResolveAssemblyReference.cache
+C:\Disco D\PEC\Med.PEC.Aplicacion.Interfaces\obj\Debug\Logistica.Aplicacion.Interfaces.csproj.CoreCompileInputs.cache
+C:\Disco D\PEC\Med.PEC.Aplicacion.Interfaces\obj\Debug\Logistica.Aplicacion.Interfaces.dll
+C:\Disco D\PEC\Med.PEC.Aplicacion.Interfaces\obj\Debug\Logistica.Aplicacion.Interfaces.pdb
+C:\Disco D\PEC\Logistica.Aplicacion.Interfaces\bin\Debug\Logistica.Aplicacion.Interfaces.dll
+C:\Disco D\PEC\Logistica.Aplicacion.Interfaces\bin\Debug\Logistica.Aplicacion.Interfaces.pdb
+C:\Disco D\PEC\Logistica.Aplicacion.Interfaces\bin\Debug\Logistica.Dominio.Entidades.dll
+C:\Disco D\PEC\Logistica.Aplicacion.Interfaces\bin\Debug\Logistica.Entidades.dll
+C:\Disco D\PEC\Logistica.Aplicacion.Interfaces\bin\Debug\Logistica.Framework.dll
+C:\Disco D\PEC\Logistica.Aplicacion.Interfaces\bin\Debug\Med.Comun.Core.dll
+C:\Disco D\PEC\Logistica.Aplicacion.Interfaces\bin\Debug\AutoMapper.dll
+C:\Disco D\PEC\Logistica.Aplicacion.Interfaces\bin\Debug\Logistica.Dominio.Entidades.pdb
+C:\Disco D\PEC\Logistica.Aplicacion.Interfaces\bin\Debug\Logistica.Entidades.pdb
+C:\Disco D\PEC\Logistica.Aplicacion.Interfaces\bin\Debug\Logistica.Framework.pdb
+C:\Disco D\PEC\Logistica.Aplicacion.Interfaces\bin\Debug\AutoMapper.xml
+C:\Disco D\PEC\Logistica.Aplicacion.Interfaces\obj\Debug\Logistica.Aplicacion.Interfaces.csprojResolveAssemblyReference.cache
+C:\Disco D\PEC\Logistica.Aplicacion.Interfaces\obj\Debug\Logistica.Aplicacion.Interfaces.csproj.CoreCompileInputs.cache
+C:\Disco D\PEC\Logistica.Aplicacion.Interfaces\obj\Debug\Logistica.Aplicacion.Interfaces.dll
+C:\Disco D\PEC\Logistica.Aplicacion.Interfaces\obj\Debug\Logistica.Aplicacion.Interfaces.pdb
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Aplicacion.Interfaces\bin\Debug\Logistica.Aplicacion.Interfaces.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Aplicacion.Interfaces\bin\Debug\Logistica.Aplicacion.Interfaces.pdb
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Aplicacion.Interfaces\bin\Debug\Logistica.Dominio.Entidades.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Aplicacion.Interfaces\bin\Debug\Logistica.Entidades.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Aplicacion.Interfaces\bin\Debug\Logistica.Framework.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Aplicacion.Interfaces\bin\Debug\Med.Comun.Core.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Aplicacion.Interfaces\bin\Debug\AutoMapper.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Aplicacion.Interfaces\bin\Debug\Logistica.Dominio.Entidades.pdb
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Aplicacion.Interfaces\bin\Debug\Logistica.Entidades.pdb
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Aplicacion.Interfaces\bin\Debug\Logistica.Framework.pdb
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Aplicacion.Interfaces\bin\Debug\AutoMapper.xml
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Aplicacion.Interfaces\obj\Debug\Logistica.Aplicacion.Interfaces.csprojResolveAssemblyReference.cache
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Aplicacion.Interfaces\obj\Debug\Logistica.Aplicacion.Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Aplicacion.Interfaces\obj\Debug\Logistica.Aplicacion.Interfaces.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Aplicacion.Interfaces\obj\Debug\Logistica.Aplicacion.Interfaces.pdb

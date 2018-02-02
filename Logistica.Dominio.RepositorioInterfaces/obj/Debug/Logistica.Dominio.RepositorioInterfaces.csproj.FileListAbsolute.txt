@@ -1,0 +1,27 @@
+C:\Disco D\PEC\Med.PEC.Dominio.RepositorioInterfaces\obj\Debug\Logistica.Dominio.RepositorioInterfaces.csprojResolveAssemblyReference.cache
+C:\Disco D\PEC\Med.PEC.Dominio.RepositorioInterfaces\obj\Debug\Logistica.Dominio.RepositorioInterfaces.csproj.CoreCompileInputs.cache
+C:\Disco D\PEC\Med.PEC.Dominio.RepositorioInterfaces\bin\Debug\Logistica.Dominio.RepositorioInterfaces.dll
+C:\Disco D\PEC\Med.PEC.Dominio.RepositorioInterfaces\bin\Debug\Logistica.Dominio.RepositorioInterfaces.pdb
+C:\Disco D\PEC\Med.PEC.Dominio.RepositorioInterfaces\bin\Debug\Logistica.Dominio.Entidades.dll
+C:\Disco D\PEC\Med.PEC.Dominio.RepositorioInterfaces\bin\Debug\Med.Comun.Datos.ICore.dll
+C:\Disco D\PEC\Med.PEC.Dominio.RepositorioInterfaces\bin\Debug\Logistica.Dominio.Entidades.pdb
+C:\Disco D\PEC\Med.PEC.Dominio.RepositorioInterfaces\obj\Debug\Logistica.Dominio.RepositorioInterfaces.dll
+C:\Disco D\PEC\Med.PEC.Dominio.RepositorioInterfaces\obj\Debug\Logistica.Dominio.RepositorioInterfaces.pdb
+C:\Disco D\PEC\Logistica.Dominio.RepositorioInterfaces\bin\Debug\Logistica.Dominio.RepositorioInterfaces.dll
+C:\Disco D\PEC\Logistica.Dominio.RepositorioInterfaces\bin\Debug\Logistica.Dominio.RepositorioInterfaces.pdb
+C:\Disco D\PEC\Logistica.Dominio.RepositorioInterfaces\bin\Debug\Logistica.Dominio.Entidades.dll
+C:\Disco D\PEC\Logistica.Dominio.RepositorioInterfaces\bin\Debug\Med.Comun.Datos.ICore.dll
+C:\Disco D\PEC\Logistica.Dominio.RepositorioInterfaces\bin\Debug\Logistica.Dominio.Entidades.pdb
+C:\Disco D\PEC\Logistica.Dominio.RepositorioInterfaces\obj\Debug\Logistica.Dominio.RepositorioInterfaces.csprojResolveAssemblyReference.cache
+C:\Disco D\PEC\Logistica.Dominio.RepositorioInterfaces\obj\Debug\Logistica.Dominio.RepositorioInterfaces.csproj.CoreCompileInputs.cache
+C:\Disco D\PEC\Logistica.Dominio.RepositorioInterfaces\obj\Debug\Logistica.Dominio.RepositorioInterfaces.dll
+C:\Disco D\PEC\Logistica.Dominio.RepositorioInterfaces\obj\Debug\Logistica.Dominio.RepositorioInterfaces.pdb
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Dominio.RepositorioInterfaces\bin\Debug\Logistica.Dominio.RepositorioInterfaces.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Dominio.RepositorioInterfaces\bin\Debug\Logistica.Dominio.RepositorioInterfaces.pdb
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Dominio.RepositorioInterfaces\bin\Debug\Logistica.Dominio.Entidades.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Dominio.RepositorioInterfaces\bin\Debug\Med.Comun.Datos.ICore.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Dominio.RepositorioInterfaces\bin\Debug\Logistica.Dominio.Entidades.pdb
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Dominio.RepositorioInterfaces\obj\Debug\Logistica.Dominio.RepositorioInterfaces.csprojResolveAssemblyReference.cache
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Dominio.RepositorioInterfaces\obj\Debug\Logistica.Dominio.RepositorioInterfaces.csproj.CoreCompileInputs.cache
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Dominio.RepositorioInterfaces\obj\Debug\Logistica.Dominio.RepositorioInterfaces.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Dominio.RepositorioInterfaces\obj\Debug\Logistica.Dominio.RepositorioInterfaces.pdb

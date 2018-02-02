@@ -1,0 +1,88 @@
+C:\Disco D\PEC\Med.PEC.Servicios.Host\obj\Debug\Logistica.Servicios.Host.csprojResolveAssemblyReference.cache
+C:\Disco D\PEC\Med.PEC.Servicios.Host\obj\Debug\Logistica.Servicios.Host.csproj.CoreCompileInputs.cache
+C:\Disco D\PEC\Logistica.Servicios.Host\bin\Logistica.Servicios.Host.dll.config
+C:\Disco D\PEC\Logistica.Servicios.Host\bin\Logistica.Servicios.Host.dll
+C:\Disco D\PEC\Logistica.Servicios.Host\bin\Logistica.Servicios.Host.pdb
+C:\Disco D\PEC\Logistica.Servicios.Host\bin\Autofac.dll
+C:\Disco D\PEC\Logistica.Servicios.Host\bin\Autofac.Integration.Wcf.dll
+C:\Disco D\PEC\Logistica.Servicios.Host\bin\Logistica.Aplicacion.Interfaces.dll
+C:\Disco D\PEC\Logistica.Servicios.Host\bin\Logistica.Aplicacion.Servicios.dll
+C:\Disco D\PEC\Logistica.Servicios.Host\bin\Logistica.Datos.Interfaces.dll
+C:\Disco D\PEC\Logistica.Servicios.Host\bin\Logistica.Datos.Modelo.dll
+C:\Disco D\PEC\Logistica.Servicios.Host\bin\Logistica.Datos.Repositorio.dll
+C:\Disco D\PEC\Logistica.Servicios.Host\bin\Logistica.Dominio.RepositorioInterfaces.dll
+C:\Disco D\PEC\Logistica.Servicios.Host\bin\Logistica.Entidades.dll
+C:\Disco D\PEC\Logistica.Servicios.Host\bin\Logistica.Framework.dll
+C:\Disco D\PEC\Logistica.Servicios.Host\bin\Med.Comun.Datos.Core.dll
+C:\Disco D\PEC\Logistica.Servicios.Host\bin\Med.Comun.Datos.ICore.dll
+C:\Disco D\PEC\Logistica.Servicios.Host\bin\Logistica.Aplicacion.Proceso.dll
+C:\Disco D\PEC\Logistica.Servicios.Host\bin\Newtonsoft.Json.dll
+C:\Disco D\PEC\Logistica.Servicios.Host\bin\Logistica.Dominio.Entidades.dll
+C:\Disco D\PEC\Logistica.Servicios.Host\bin\AutoMapper.dll
+C:\Disco D\PEC\Logistica.Servicios.Host\bin\Logistica.Aplicacion.Interfaces.pdb
+C:\Disco D\PEC\Logistica.Servicios.Host\bin\Logistica.Aplicacion.Servicios.pdb
+C:\Disco D\PEC\Logistica.Servicios.Host\bin\Logistica.Aplicacion.Servicios.dll.config
+C:\Disco D\PEC\Logistica.Servicios.Host\bin\Logistica.Datos.Interfaces.pdb
+C:\Disco D\PEC\Logistica.Servicios.Host\bin\Logistica.Datos.Modelo.pdb
+C:\Disco D\PEC\Logistica.Servicios.Host\bin\Logistica.Datos.Modelo.dll.config
+C:\Disco D\PEC\Logistica.Servicios.Host\bin\Logistica.Datos.Repositorio.pdb
+C:\Disco D\PEC\Logistica.Servicios.Host\bin\Logistica.Dominio.RepositorioInterfaces.pdb
+C:\Disco D\PEC\Logistica.Servicios.Host\bin\Logistica.Entidades.pdb
+C:\Disco D\PEC\Logistica.Servicios.Host\bin\Logistica.Framework.pdb
+C:\Disco D\PEC\Logistica.Servicios.Host\bin\Autofac.xml
+C:\Disco D\PEC\Logistica.Servicios.Host\bin\Autofac.Integration.Wcf.xml
+C:\Disco D\PEC\Logistica.Servicios.Host\bin\Logistica.Aplicacion.Proceso.pdb
+C:\Disco D\PEC\Logistica.Servicios.Host\bin\Newtonsoft.Json.xml
+C:\Disco D\PEC\Logistica.Servicios.Host\bin\Logistica.Dominio.Entidades.pdb
+C:\Disco D\PEC\Logistica.Servicios.Host\bin\AutoMapper.xml
+C:\Disco D\PEC\Logistica.Servicios.Host\obj\Debug\Logistica.Servicios.Host.csprojResolveAssemblyReference.cache
+C:\Disco D\PEC\Logistica.Servicios.Host\obj\Debug\Logistica.Servicios.Host.csproj.CoreCompileInputs.cache
+C:\Disco D\PEC\Logistica.Servicios.Host\obj\Debug\Logistica.Servicios.Host.dll
+C:\Disco D\PEC\Logistica.Servicios.Host\obj\Debug\Logistica.Servicios.Host.pdb
+C:\Disco D\PEC\Logistica.Servicios.Host\bin\EntityFramework.dll
+C:\Disco D\PEC\Logistica.Servicios.Host\bin\EntityFramework.SqlServer.dll
+C:\Disco D\PEC\Logistica.Servicios.Host\bin\EntityFramework.xml
+C:\Disco D\PEC\Logistica.Servicios.Host\bin\EntityFramework.SqlServer.xml
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Servicios.Host\bin\Logistica.Servicios.Host.dll.config
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Servicios.Host\bin\Logistica.Servicios.Host.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Servicios.Host\bin\Logistica.Servicios.Host.pdb
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Servicios.Host\bin\Autofac.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Servicios.Host\bin\Autofac.Integration.Wcf.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Servicios.Host\bin\EntityFramework.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Servicios.Host\bin\EntityFramework.SqlServer.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Servicios.Host\bin\Logistica.Aplicacion.Interfaces.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Servicios.Host\bin\Logistica.Aplicacion.Servicios.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Servicios.Host\bin\Logistica.Datos.Interfaces.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Servicios.Host\bin\Logistica.Datos.Modelo.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Servicios.Host\bin\Logistica.Datos.Repositorio.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Servicios.Host\bin\Logistica.Dominio.RepositorioInterfaces.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Servicios.Host\bin\Logistica.Entidades.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Servicios.Host\bin\Logistica.Framework.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Servicios.Host\bin\Med.Comun.Datos.Core.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Servicios.Host\bin\Med.Comun.Datos.ICore.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Servicios.Host\bin\Logistica.Aplicacion.Proceso.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Servicios.Host\bin\Logistica.Dominio.Entidades.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Servicios.Host\bin\Newtonsoft.Json.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Servicios.Host\bin\AutoMapper.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Servicios.Host\bin\Logistica.Aplicacion.Interfaces.pdb
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Servicios.Host\bin\Logistica.Aplicacion.Servicios.pdb
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Servicios.Host\bin\Logistica.Aplicacion.Servicios.dll.config
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Servicios.Host\bin\Logistica.Datos.Interfaces.pdb
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Servicios.Host\bin\Logistica.Datos.Modelo.pdb
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Servicios.Host\bin\Logistica.Datos.Modelo.dll.config
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Servicios.Host\bin\Logistica.Datos.Repositorio.pdb
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Servicios.Host\bin\Logistica.Dominio.RepositorioInterfaces.pdb
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Servicios.Host\bin\Logistica.Entidades.pdb
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Servicios.Host\bin\Logistica.Framework.pdb
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Servicios.Host\bin\Autofac.xml
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Servicios.Host\bin\Autofac.Integration.Wcf.xml
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Servicios.Host\bin\EntityFramework.xml
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Servicios.Host\bin\EntityFramework.SqlServer.xml
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Servicios.Host\bin\Logistica.Aplicacion.Proceso.pdb
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Servicios.Host\bin\Logistica.Dominio.Entidades.pdb
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Servicios.Host\bin\Newtonsoft.Json.xml
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Servicios.Host\bin\AutoMapper.xml
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Servicios.Host\obj\Debug\Logistica.Servicios.Host.csprojResolveAssemblyReference.cache
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Servicios.Host\obj\Debug\Logistica.Servicios.Host.csproj.CoreCompileInputs.cache
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Servicios.Host\obj\Debug\Logistica.Servicios.Host.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Servicios.Host\obj\Debug\Logistica.Servicios.Host.pdb

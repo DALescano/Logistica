@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{781D56EC-A0B5-4A1A-A593-EBB48D36B056}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Logistica.Aplicacion.Servicios</RootNamespace>
+    <AssemblyName>Logistica.Aplicacion.Servicios</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Med.Comun.Core">
+      <HintPath>..\Med.PEC.Presentacion.WebMvc.Administrador\bin\Med.Comun.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Med.Comun.Datos.ICore">
+      <HintPath>..\..\PEC Actualizado\PEC\Med.PEC.Presentacion.WebMvc.Portal\bin\Med.Comun.Datos.ICore.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common, Version=6.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=6.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\EnterpriseLibrary.ExceptionHandling.6.0.1304.0\lib\NET45\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging, Version=6.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\EnterpriseLibrary.ExceptionHandling.Logging.6.0.1304.0\lib\NET45\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Logging, Version=6.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\EnterpriseLibrary.Logging.6.0.1304.0\lib\NET45\Microsoft.Practices.EnterpriseLibrary.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdministracionAplicacion.cs" />
+    <Compile Include="Mensajes.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Mensajes.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Proceso\AdministracionProceso.cs" />
+    <Compile Include="Proceso\SeguridadProceso.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SeguridadAplicacion.cs" />
+    <Compile Include="Validacion\AdministracionValidacion.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Logistica.Aplicacion.Interfaces\Logistica.Aplicacion.Interfaces.csproj">
+      <Project>{bab5fa9a-cce1-4e0f-8fea-d4b10dcd373a}</Project>
+      <Name>Logistica.Aplicacion.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Logistica.Aplicacion.Proceso\Logistica.Aplicacion.Proceso.csproj">
+      <Project>{2e52617a-de09-48bd-aff1-d0fd11306cd1}</Project>
+      <Name>Logistica.Aplicacion.Proceso</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Logistica.Datos.Interfaces\Logistica.Datos.Interfaces.csproj">
+      <Project>{d04c9157-30dd-4950-a61e-433387913556}</Project>
+      <Name>Logistica.Datos.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Logistica.Datos.Modelo\Logistica.Datos.Modelo.csproj">
+      <Project>{a9b37050-b6e1-4169-bbe9-b84bf14972dc}</Project>
+      <Name>Logistica.Datos.Modelo</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Logistica.Datos.Repositorio\Logistica.Datos.Repositorio.csproj">
+      <Project>{1f281949-e69d-4de3-997b-5b84fa04f032}</Project>
+      <Name>Logistica.Datos.Repositorio</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Logistica.Dominio.Entidades\Logistica.Dominio.Entidades.csproj">
+      <Project>{efc050b8-0577-4880-a110-acaad8afc246}</Project>
+      <Name>Logistica.Dominio.Entidades</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Logistica.Dominio.Enumerados\Logistica.Dominio.Enumerados.csproj">
+      <Project>{70f04afc-4e94-4ed5-a04c-5cbf808f0346}</Project>
+      <Name>Logistica.Dominio.Enumerados</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Logistica.Dominio.RepositorioInterfaces\Logistica.Dominio.RepositorioInterfaces.csproj">
+      <Project>{8d58e602-ab40-4f99-b2fa-4a1b613874d8}</Project>
+      <Name>Logistica.Dominio.RepositorioInterfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Logistica.Entidades\Logistica.Entidades.csproj">
+      <Project>{230c1bc9-e5ea-4b66-835d-12b0740c66b0}</Project>
+      <Name>Logistica.Entidades</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Logistica.Framework\Logistica.Framework.csproj">
+      <Project>{4C44422C-FCB8-4976-A8AB-9BEF6F2144F4}</Project>
+      <Name>Logistica.Framework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mensajes.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Mensajes.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

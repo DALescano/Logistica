@@ -1,0 +1,32 @@
+C:\Disco D\PEC\Med.PEC.Entidades\bin\Debug\Logistica.Entidades.dll
+C:\Disco D\PEC\Med.PEC.Entidades\bin\Debug\Logistica.Entidades.pdb
+C:\Disco D\PEC\Med.PEC.Entidades\bin\Debug\AutoMapper.dll
+C:\Disco D\PEC\Med.PEC.Entidades\bin\Debug\Med.Comun.Core.dll
+C:\Disco D\PEC\Med.PEC.Entidades\bin\Debug\AutoMapper.xml
+C:\Disco D\PEC\Med.PEC.Entidades\obj\Debug\Logistica.Entidades.Mensajes.resources
+C:\Disco D\PEC\Med.PEC.Entidades\obj\Debug\Logistica.Entidades.csproj.GenerateResource.Cache
+C:\Disco D\PEC\Med.PEC.Entidades\obj\Debug\Logistica.Entidades.csproj.CoreCompileInputs.cache
+C:\Disco D\PEC\Med.PEC.Entidades\obj\Debug\Logistica.Entidades.dll
+C:\Disco D\PEC\Med.PEC.Entidades\obj\Debug\Logistica.Entidades.pdb
+C:\Disco D\PEC\Logistica.Entidades\bin\Debug\Logistica.Entidades.dll
+C:\Disco D\PEC\Logistica.Entidades\bin\Debug\Logistica.Entidades.pdb
+C:\Disco D\PEC\Logistica.Entidades\bin\Debug\AutoMapper.dll
+C:\Disco D\PEC\Logistica.Entidades\bin\Debug\Med.Comun.Core.dll
+C:\Disco D\PEC\Logistica.Entidades\bin\Debug\AutoMapper.xml
+C:\Disco D\PEC\Logistica.Entidades\obj\Debug\Logistica.Entidades.csprojResolveAssemblyReference.cache
+C:\Disco D\PEC\Logistica.Entidades\obj\Debug\Logistica.Entidades.Mensajes.resources
+C:\Disco D\PEC\Logistica.Entidades\obj\Debug\Logistica.Entidades.csproj.GenerateResource.Cache
+C:\Disco D\PEC\Logistica.Entidades\obj\Debug\Logistica.Entidades.csproj.CoreCompileInputs.cache
+C:\Disco D\PEC\Logistica.Entidades\obj\Debug\Logistica.Entidades.dll
+C:\Disco D\PEC\Logistica.Entidades\obj\Debug\Logistica.Entidades.pdb
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Entidades\bin\Debug\Logistica.Entidades.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Entidades\bin\Debug\Logistica.Entidades.pdb
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Entidades\bin\Debug\AutoMapper.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Entidades\bin\Debug\Med.Comun.Core.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Entidades\bin\Debug\AutoMapper.xml
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Entidades\obj\Debug\Logistica.Entidades.Mensajes.resources
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Entidades\obj\Debug\Logistica.Entidades.csproj.GenerateResource.Cache
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Entidades\obj\Debug\Logistica.Entidades.csproj.CoreCompileInputs.cache
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Entidades\obj\Debug\Logistica.Entidades.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Entidades\obj\Debug\Logistica.Entidades.pdb
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Entidades\obj\Debug\Logistica.Entidades.csprojResolveAssemblyReference.cache

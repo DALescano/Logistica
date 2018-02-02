@@ -1,0 +1,2 @@
+C:\Disco D\PEC\Med.PEC.Aplicacion.Proceso\obj\Debug\Med.PEC.Aplicacion.Proceso.csprojResolveAssemblyReference.cache
+C:\Disco D\PEC\Med.PEC.Aplicacion.Proceso\obj\Debug\Med.PEC.Aplicacion.Proceso.csproj.CoreCompileInputs.cache

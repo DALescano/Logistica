@@ -1,0 +1,36 @@
+C:\Disco D\PEC\Med.PEC.Datos.Interfaces\bin\Debug\Logistica.Datos.Interfaces.dll
+C:\Disco D\PEC\Med.PEC.Datos.Interfaces\bin\Debug\Logistica.Datos.Interfaces.pdb
+C:\Disco D\PEC\Med.PEC.Datos.Interfaces\bin\Debug\Logistica.Entidades.dll
+C:\Disco D\PEC\Med.PEC.Datos.Interfaces\bin\Debug\Med.Comun.Core.dll
+C:\Disco D\PEC\Med.PEC.Datos.Interfaces\bin\Debug\Med.Comun.Datos.ICore.dll
+C:\Disco D\PEC\Med.PEC.Datos.Interfaces\bin\Debug\Newtonsoft.Json.dll
+C:\Disco D\PEC\Med.PEC.Datos.Interfaces\bin\Debug\Logistica.Entidades.pdb
+C:\Disco D\PEC\Med.PEC.Datos.Interfaces\bin\Debug\Newtonsoft.Json.xml
+C:\Disco D\PEC\Med.PEC.Datos.Interfaces\obj\Debug\Logistica.Datos.Interfaces.csprojResolveAssemblyReference.cache
+C:\Disco D\PEC\Med.PEC.Datos.Interfaces\obj\Debug\Logistica.Datos.Interfaces.csproj.CoreCompileInputs.cache
+C:\Disco D\PEC\Med.PEC.Datos.Interfaces\obj\Debug\Logistica.Datos.Interfaces.dll
+C:\Disco D\PEC\Med.PEC.Datos.Interfaces\obj\Debug\Logistica.Datos.Interfaces.pdb
+C:\Disco D\PEC\Logistica.Datos.Interfaces\bin\Debug\Logistica.Datos.Interfaces.dll
+C:\Disco D\PEC\Logistica.Datos.Interfaces\bin\Debug\Logistica.Datos.Interfaces.pdb
+C:\Disco D\PEC\Logistica.Datos.Interfaces\bin\Debug\Logistica.Entidades.dll
+C:\Disco D\PEC\Logistica.Datos.Interfaces\bin\Debug\Med.Comun.Core.dll
+C:\Disco D\PEC\Logistica.Datos.Interfaces\bin\Debug\Med.Comun.Datos.ICore.dll
+C:\Disco D\PEC\Logistica.Datos.Interfaces\bin\Debug\Newtonsoft.Json.dll
+C:\Disco D\PEC\Logistica.Datos.Interfaces\bin\Debug\Logistica.Entidades.pdb
+C:\Disco D\PEC\Logistica.Datos.Interfaces\bin\Debug\Newtonsoft.Json.xml
+C:\Disco D\PEC\Logistica.Datos.Interfaces\obj\Debug\Logistica.Datos.Interfaces.csprojResolveAssemblyReference.cache
+C:\Disco D\PEC\Logistica.Datos.Interfaces\obj\Debug\Logistica.Datos.Interfaces.csproj.CoreCompileInputs.cache
+C:\Disco D\PEC\Logistica.Datos.Interfaces\obj\Debug\Logistica.Datos.Interfaces.dll
+C:\Disco D\PEC\Logistica.Datos.Interfaces\obj\Debug\Logistica.Datos.Interfaces.pdb
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Datos.Interfaces\bin\Debug\Logistica.Datos.Interfaces.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Datos.Interfaces\bin\Debug\Logistica.Datos.Interfaces.pdb
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Datos.Interfaces\bin\Debug\Logistica.Entidades.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Datos.Interfaces\bin\Debug\Med.Comun.Core.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Datos.Interfaces\bin\Debug\Med.Comun.Datos.ICore.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Datos.Interfaces\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Datos.Interfaces\bin\Debug\Logistica.Entidades.pdb
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Datos.Interfaces\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Datos.Interfaces\obj\Debug\Logistica.Datos.Interfaces.csprojResolveAssemblyReference.cache
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Datos.Interfaces\obj\Debug\Logistica.Datos.Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Datos.Interfaces\obj\Debug\Logistica.Datos.Interfaces.dll
+C:\Users\ARIANA\Downloads\Logistica\Logistica.Datos.Interfaces\obj\Debug\Logistica.Datos.Interfaces.pdb
