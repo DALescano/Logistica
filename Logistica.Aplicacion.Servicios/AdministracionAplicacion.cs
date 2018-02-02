@@ -13,7 +13,6 @@ namespace Logistica.Aplicacion.Servicios
 {
     public class AdministracionAplicacion : IAdministracionAplicacion
     {
-        readonly IUnitOfWorkPEC _work;
         readonly ICategoriaRepository categoriaRepository;
         private readonly ITypeAdapter _adapter;
         readonly AdministracionValidacion administracionValidacion;
@@ -22,11 +21,9 @@ namespace Logistica.Aplicacion.Servicios
         public AdministracionAplicacion(
             AdministracionValidacion administracionValidacion,
             AdministracionProceso administracionProceso,
-            IUnitOfWorkPEC _work,
             ICategoriaRepository categoriaRepository
             )
         {
-            this._work = _work;
             this.categoriaRepository = categoriaRepository;
             this.administracionProceso = administracionProceso;
             this.administracionValidacion = administracionValidacion;

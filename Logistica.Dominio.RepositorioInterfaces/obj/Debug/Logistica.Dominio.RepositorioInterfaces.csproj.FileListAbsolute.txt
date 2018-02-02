@@ -25,3 +25,12 @@ C:\Users\ARIANA\Downloads\Logistica\Logistica.Dominio.RepositorioInterfaces\obj\
 C:\Users\ARIANA\Downloads\Logistica\Logistica.Dominio.RepositorioInterfaces\obj\Debug\Logistica.Dominio.RepositorioInterfaces.csproj.CoreCompileInputs.cache
 C:\Users\ARIANA\Downloads\Logistica\Logistica.Dominio.RepositorioInterfaces\obj\Debug\Logistica.Dominio.RepositorioInterfaces.dll
 C:\Users\ARIANA\Downloads\Logistica\Logistica.Dominio.RepositorioInterfaces\obj\Debug\Logistica.Dominio.RepositorioInterfaces.pdb
+C:\Users\lenovo\Documents\GitHub\Logistica\Logistica.Dominio.RepositorioInterfaces\bin\Debug\Logistica.Dominio.RepositorioInterfaces.dll
+C:\Users\lenovo\Documents\GitHub\Logistica\Logistica.Dominio.RepositorioInterfaces\bin\Debug\Logistica.Dominio.RepositorioInterfaces.pdb
+C:\Users\lenovo\Documents\GitHub\Logistica\Logistica.Dominio.RepositorioInterfaces\bin\Debug\Logistica.Dominio.Entidades.dll
+C:\Users\lenovo\Documents\GitHub\Logistica\Logistica.Dominio.RepositorioInterfaces\bin\Debug\Med.Comun.Datos.ICore.dll
+C:\Users\lenovo\Documents\GitHub\Logistica\Logistica.Dominio.RepositorioInterfaces\bin\Debug\Logistica.Dominio.Entidades.pdb
+C:\Users\lenovo\Documents\GitHub\Logistica\Logistica.Dominio.RepositorioInterfaces\obj\Debug\Logistica.Dominio.RepositorioInterfaces.csprojResolveAssemblyReference.cache
+C:\Users\lenovo\Documents\GitHub\Logistica\Logistica.Dominio.RepositorioInterfaces\obj\Debug\Logistica.Dominio.RepositorioInterfaces.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Documents\GitHub\Logistica\Logistica.Dominio.RepositorioInterfaces\obj\Debug\Logistica.Dominio.RepositorioInterfaces.dll
+C:\Users\lenovo\Documents\GitHub\Logistica\Logistica.Dominio.RepositorioInterfaces\obj\Debug\Logistica.Dominio.RepositorioInterfaces.pdb

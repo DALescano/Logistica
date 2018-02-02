@@ -35,10 +35,11 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Med.Comun.Core">
-      <HintPath>..\Med.PEC.Presentacion.WebMvc.Administrador\bin\Med.Comun.Core.dll</HintPath>
+      <HintPath>..\Logistica.Servicios.Host\bin\Med.Comun.Core.dll</HintPath>
     </Reference>
-    <Reference Include="Med.Comun.Datos.ICore">
-      <HintPath>..\..\PEC Actualizado\PEC\Med.PEC.Presentacion.WebMvc.Portal\bin\Med.Comun.Datos.ICore.dll</HintPath>
+    <Reference Include="Med.Comun.Datos.ICore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=33972f12bff2653f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Logistica.Servicios.Host\bin\Med.Comun.Datos.ICore.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common, Version=6.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>

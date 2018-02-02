@@ -13,3 +13,8 @@ C:\Users\ARIANA\Downloads\Logistica\Logistica.Dominio.Enumerados\bin\Debug\Logis
 C:\Users\ARIANA\Downloads\Logistica\Logistica.Dominio.Enumerados\obj\Debug\Logistica.Dominio.Enumerados.csproj.CoreCompileInputs.cache
 C:\Users\ARIANA\Downloads\Logistica\Logistica.Dominio.Enumerados\obj\Debug\Logistica.Dominio.Enumerados.dll
 C:\Users\ARIANA\Downloads\Logistica\Logistica.Dominio.Enumerados\obj\Debug\Logistica.Dominio.Enumerados.pdb
+C:\Users\lenovo\Documents\GitHub\Logistica\Logistica.Dominio.Enumerados\bin\Debug\Logistica.Dominio.Enumerados.dll
+C:\Users\lenovo\Documents\GitHub\Logistica\Logistica.Dominio.Enumerados\bin\Debug\Logistica.Dominio.Enumerados.pdb
+C:\Users\lenovo\Documents\GitHub\Logistica\Logistica.Dominio.Enumerados\obj\Debug\Logistica.Dominio.Enumerados.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Documents\GitHub\Logistica\Logistica.Dominio.Enumerados\obj\Debug\Logistica.Dominio.Enumerados.dll
+C:\Users\lenovo\Documents\GitHub\Logistica\Logistica.Dominio.Enumerados\obj\Debug\Logistica.Dominio.Enumerados.pdb

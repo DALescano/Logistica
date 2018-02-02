@@ -40,3 +40,17 @@ C:\Users\ARIANA\Downloads\Logistica\Logistica.Framework\obj\Debug\Logistica.Fram
 C:\Users\ARIANA\Downloads\Logistica\Logistica.Framework\obj\Debug\Logistica.Framework.csproj.CoreCompileInputs.cache
 C:\Users\ARIANA\Downloads\Logistica\Logistica.Framework\obj\Debug\Logistica.Framework.dll
 C:\Users\ARIANA\Downloads\Logistica\Logistica.Framework\obj\Debug\Logistica.Framework.pdb
+C:\Users\lenovo\Documents\GitHub\Logistica\Logistica.Framework\bin\Debug\Logistica.Framework.dll
+C:\Users\lenovo\Documents\GitHub\Logistica\Logistica.Framework\bin\Debug\Logistica.Framework.pdb
+C:\Users\lenovo\Documents\GitHub\Logistica\Logistica.Framework\bin\Debug\AutoMapper.dll
+C:\Users\lenovo\Documents\GitHub\Logistica\Logistica.Framework\bin\Debug\EntityFramework.Extended.dll
+C:\Users\lenovo\Documents\GitHub\Logistica\Logistica.Framework\bin\Debug\Logistica.Entidades.dll
+C:\Users\lenovo\Documents\GitHub\Logistica\Logistica.Framework\bin\Debug\Med.Comun.Core.dll
+C:\Users\lenovo\Documents\GitHub\Logistica\Logistica.Framework\bin\Debug\Logistica.Entidades.pdb
+C:\Users\lenovo\Documents\GitHub\Logistica\Logistica.Framework\bin\Debug\AutoMapper.xml
+C:\Users\lenovo\Documents\GitHub\Logistica\Logistica.Framework\bin\Debug\EntityFramework.Extended.xml
+C:\Users\lenovo\Documents\GitHub\Logistica\Logistica.Framework\bin\Debug\EntityFramework.Extended.dll.config
+C:\Users\lenovo\Documents\GitHub\Logistica\Logistica.Framework\obj\Debug\Logistica.Framework.csprojResolveAssemblyReference.cache
+C:\Users\lenovo\Documents\GitHub\Logistica\Logistica.Framework\obj\Debug\Logistica.Framework.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Documents\GitHub\Logistica\Logistica.Framework\obj\Debug\Logistica.Framework.dll
+C:\Users\lenovo\Documents\GitHub\Logistica\Logistica.Framework\obj\Debug\Logistica.Framework.pdb

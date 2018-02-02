@@ -13,3 +13,8 @@ C:\Users\ARIANA\Downloads\Logistica\Logistica.Dominio.Entidades\bin\Debug\Logist
 C:\Users\ARIANA\Downloads\Logistica\Logistica.Dominio.Entidades\obj\Debug\Logistica.Dominio.Entidades.csproj.CoreCompileInputs.cache
 C:\Users\ARIANA\Downloads\Logistica\Logistica.Dominio.Entidades\obj\Debug\Logistica.Dominio.Entidades.dll
 C:\Users\ARIANA\Downloads\Logistica\Logistica.Dominio.Entidades\obj\Debug\Logistica.Dominio.Entidades.pdb
+C:\Users\lenovo\Documents\GitHub\Logistica\Logistica.Dominio.Entidades\bin\Debug\Logistica.Dominio.Entidades.dll
+C:\Users\lenovo\Documents\GitHub\Logistica\Logistica.Dominio.Entidades\bin\Debug\Logistica.Dominio.Entidades.pdb
+C:\Users\lenovo\Documents\GitHub\Logistica\Logistica.Dominio.Entidades\obj\Debug\Logistica.Dominio.Entidades.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Documents\GitHub\Logistica\Logistica.Dominio.Entidades\obj\Debug\Logistica.Dominio.Entidades.dll
+C:\Users\lenovo\Documents\GitHub\Logistica\Logistica.Dominio.Entidades\obj\Debug\Logistica.Dominio.Entidades.pdb

@@ -30,3 +30,13 @@ C:\Users\ARIANA\Downloads\Logistica\Logistica.Entidades\obj\Debug\Logistica.Enti
 C:\Users\ARIANA\Downloads\Logistica\Logistica.Entidades\obj\Debug\Logistica.Entidades.dll
 C:\Users\ARIANA\Downloads\Logistica\Logistica.Entidades\obj\Debug\Logistica.Entidades.pdb
 C:\Users\ARIANA\Downloads\Logistica\Logistica.Entidades\obj\Debug\Logistica.Entidades.csprojResolveAssemblyReference.cache
+C:\Users\lenovo\Documents\GitHub\Logistica\Logistica.Entidades\bin\Debug\Logistica.Entidades.dll
+C:\Users\lenovo\Documents\GitHub\Logistica\Logistica.Entidades\bin\Debug\Logistica.Entidades.pdb
+C:\Users\lenovo\Documents\GitHub\Logistica\Logistica.Entidades\bin\Debug\AutoMapper.dll
+C:\Users\lenovo\Documents\GitHub\Logistica\Logistica.Entidades\bin\Debug\Med.Comun.Core.dll
+C:\Users\lenovo\Documents\GitHub\Logistica\Logistica.Entidades\bin\Debug\AutoMapper.xml
+C:\Users\lenovo\Documents\GitHub\Logistica\Logistica.Entidades\obj\Debug\Logistica.Entidades.Mensajes.resources
+C:\Users\lenovo\Documents\GitHub\Logistica\Logistica.Entidades\obj\Debug\Logistica.Entidades.csproj.GenerateResource.Cache
+C:\Users\lenovo\Documents\GitHub\Logistica\Logistica.Entidades\obj\Debug\Logistica.Entidades.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Documents\GitHub\Logistica\Logistica.Entidades\obj\Debug\Logistica.Entidades.dll
+C:\Users\lenovo\Documents\GitHub\Logistica\Logistica.Entidades\obj\Debug\Logistica.Entidades.pdb

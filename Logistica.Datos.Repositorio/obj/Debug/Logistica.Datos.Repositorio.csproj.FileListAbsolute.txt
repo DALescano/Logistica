@@ -31,3 +31,14 @@ C:\Users\ARIANA\Downloads\Logistica\Logistica.Datos.Repositorio\obj\Debug\Logist
 C:\Users\ARIANA\Downloads\Logistica\Logistica.Datos.Repositorio\obj\Debug\Logistica.Datos.Repositorio.csproj.CoreCompileInputs.cache
 C:\Users\ARIANA\Downloads\Logistica\Logistica.Datos.Repositorio\obj\Debug\Logistica.Datos.Repositorio.dll
 C:\Users\ARIANA\Downloads\Logistica\Logistica.Datos.Repositorio\obj\Debug\Logistica.Datos.Repositorio.pdb
+C:\Users\lenovo\Documents\GitHub\Logistica\Logistica.Datos.Repositorio\bin\Debug\Logistica.Datos.Repositorio.dll
+C:\Users\lenovo\Documents\GitHub\Logistica\Logistica.Datos.Repositorio\bin\Debug\Logistica.Datos.Repositorio.pdb
+C:\Users\lenovo\Documents\GitHub\Logistica\Logistica.Datos.Repositorio\bin\Debug\Logistica.Dominio.Entidades.dll
+C:\Users\lenovo\Documents\GitHub\Logistica\Logistica.Datos.Repositorio\bin\Debug\Logistica.Dominio.RepositorioInterfaces.dll
+C:\Users\lenovo\Documents\GitHub\Logistica\Logistica.Datos.Repositorio\bin\Debug\Med.Comun.Datos.ICore.dll
+C:\Users\lenovo\Documents\GitHub\Logistica\Logistica.Datos.Repositorio\bin\Debug\Logistica.Dominio.Entidades.pdb
+C:\Users\lenovo\Documents\GitHub\Logistica\Logistica.Datos.Repositorio\bin\Debug\Logistica.Dominio.RepositorioInterfaces.pdb
+C:\Users\lenovo\Documents\GitHub\Logistica\Logistica.Datos.Repositorio\obj\Debug\Logistica.Datos.Repositorio.csprojResolveAssemblyReference.cache
+C:\Users\lenovo\Documents\GitHub\Logistica\Logistica.Datos.Repositorio\obj\Debug\Logistica.Datos.Repositorio.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Documents\GitHub\Logistica\Logistica.Datos.Repositorio\obj\Debug\Logistica.Datos.Repositorio.dll
+C:\Users\lenovo\Documents\GitHub\Logistica\Logistica.Datos.Repositorio\obj\Debug\Logistica.Datos.Repositorio.pdb

@@ -18,3 +18,12 @@ C:\Users\ARIANA\Downloads\Logistica\Logistica.Aplicacion.Proceso\obj\Debug\Logis
 C:\Users\ARIANA\Downloads\Logistica\Logistica.Aplicacion.Proceso\obj\Debug\Logistica.Aplicacion.Proceso.csproj.CoreCompileInputs.cache
 C:\Users\ARIANA\Downloads\Logistica\Logistica.Aplicacion.Proceso\obj\Debug\Logistica.Aplicacion.Proceso.dll
 C:\Users\ARIANA\Downloads\Logistica\Logistica.Aplicacion.Proceso\obj\Debug\Logistica.Aplicacion.Proceso.pdb
+C:\Users\lenovo\Documents\GitHub\Logistica\Logistica.Aplicacion.Proceso\bin\Debug\Logistica.Aplicacion.Proceso.dll
+C:\Users\lenovo\Documents\GitHub\Logistica\Logistica.Aplicacion.Proceso\bin\Debug\Logistica.Aplicacion.Proceso.pdb
+C:\Users\lenovo\Documents\GitHub\Logistica\Logistica.Aplicacion.Proceso\bin\Debug\Logistica.Entidades.dll
+C:\Users\lenovo\Documents\GitHub\Logistica\Logistica.Aplicacion.Proceso\bin\Debug\Med.Comun.Core.dll
+C:\Users\lenovo\Documents\GitHub\Logistica\Logistica.Aplicacion.Proceso\bin\Debug\Logistica.Entidades.pdb
+C:\Users\lenovo\Documents\GitHub\Logistica\Logistica.Aplicacion.Proceso\obj\Debug\Logistica.Aplicacion.Proceso.csprojResolveAssemblyReference.cache
+C:\Users\lenovo\Documents\GitHub\Logistica\Logistica.Aplicacion.Proceso\obj\Debug\Logistica.Aplicacion.Proceso.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Documents\GitHub\Logistica\Logistica.Aplicacion.Proceso\obj\Debug\Logistica.Aplicacion.Proceso.dll
+C:\Users\lenovo\Documents\GitHub\Logistica\Logistica.Aplicacion.Proceso\obj\Debug\Logistica.Aplicacion.Proceso.pdb
