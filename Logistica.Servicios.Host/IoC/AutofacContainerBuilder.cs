@@ -29,11 +29,11 @@ namespace Logistica.Servicios.Host
             //string registryKey = System.Configuration.ConfigurationManager.AppSettings["StringsPEC_RegistryKey"];
             string metadata = System.Configuration.ConfigurationManager.AppSettings["MetaData"];
             //string dbContextValue = (string)RegeditManager.Read(registryKey, "PECDbContext", false);
-            string dbContextValue = System.Configuration.ConfigurationManager.AppSettings["PECDbContext"];
+            //string dbContextValue = System.Configuration.ConfigurationManager.AppSettings["PECDbContext"];
 
 
            //string dbContextValue = "Data Source=sql5037.site4now.net;Initial Catalog=DB_A1FCC3_pec;User ID=DB_A1FCC3_pec_admin;Password=topsecret1;MultipleActiveResultSets=True;App=EntityFramework";
-            //string dbContextValue = "Data Source=192.190.42.76;Initial Catalog=db_PEC_v3;User ID=sa;Password=m1nedup3c;MultipleActiveResultSets=True;App=EntityFramework";
+            string dbContextValue = "Data Source=LENOVO-PC\\MSSQLSERVERXPR;Initial Catalog=Logistica;User ID=sa;Password=123456;MultipleActiveResultSets=True;App=EntityFramework";
 
             source = new ConnectionStringManager().GetEntityConnection(dbContextValue, metadata);
 
